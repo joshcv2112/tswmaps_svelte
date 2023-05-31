@@ -9,6 +9,9 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
+<h1>Interactive Maps for the Train Sim World Series</h1>
+<h1>INTERACTIVE MAPS FOR THE TRAIN SIM WORLD SERIES</h1>
+
 <section>
 	<h1>
 		<span class="welcome">
