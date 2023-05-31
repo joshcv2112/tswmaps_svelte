@@ -1,5 +1,6 @@
 <script>
 	import Counter from './Counter.svelte';
+	import Tile from './Tile.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
 </script>
@@ -12,6 +13,13 @@
 <h1>Interactive Maps for the Train Sim World Series</h1>
 <h1>INTERACTIVE MAPS FOR THE TRAIN SIM WORLD SERIES</h1>
 
+<div>
+	<Tile />
+	<Tile />
+	<Tile />
+	<Tile />
+</div>
+
 <section>
 	<h1>
 		<span class="welcome">
@@ -20,7 +28,6 @@
 				<img src={welcome_fallback} alt="Welcome" />
 			</picture>
 		</span>
-
 		to your new<br />SvelteKit app
 	</h1>
 
@@ -58,5 +65,13 @@
 		height: 100%;
 		top: 0;
 		display: block;
+	}
+
+	div.tile {
+		max-width: 100%;
+	}
+
+	img.tile {
+		
 	}
 </style>
