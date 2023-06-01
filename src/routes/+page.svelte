@@ -13,7 +13,7 @@
 <h1>Interactive Maps for the Train Sim World Series</h1>
 <h1>INTERACTIVE MAPS FOR THE TRAIN SIM WORLD SERIES</h1>
 
-<div>
+<div class="tile-container">
 	<Tile />
 	<Tile />
 	<Tile />
@@ -73,5 +73,13 @@
 
 	img.tile {
 		
+	}
+
+	div.tile-container {
+		margin: 40px auto;
+		width: 95%;
+		
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 </style>
