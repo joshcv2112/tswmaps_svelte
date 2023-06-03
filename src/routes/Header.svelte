@@ -7,7 +7,7 @@
 <header>
 	<div class="corner-left">
 		<a class="corner-left" href="/">
-			<img src={logo} alt="SvelteKit" />
+			<img src={logo} alt="TSW Maps" />
 			TSW Maps
 		</a>
 	</div>

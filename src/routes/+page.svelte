@@ -11,11 +11,15 @@
 </svelte:head>
 
 <h1>Interactive Maps for the Train Sim World Series</h1>
-<h1>INTERACTIVE MAPS FOR THE TRAIN SIM WORLD SERIES</h1>
 
 <div class="tile-container">
 	<Tile />
 	<Tile />
+	<Tile />
+	<Tile />
+</div>
+
+<div class="tile-container">
 	<Tile />
 	<Tile />
 </div>
@@ -34,7 +38,6 @@
 	<h2>
 		try editing <strong>src/routes/+page.svelte</strong>
 	</h2>
-
 	<Counter />
 </section>
 
@@ -65,14 +68,6 @@
 		height: 100%;
 		top: 0;
 		display: block;
-	}
-
-	div.tile {
-		max-width: 100%;
-	}
-
-	img.tile {
-		
 	}
 
 	div.tile-container {

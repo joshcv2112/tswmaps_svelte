@@ -1,73 +1,59 @@
 <script>
-    
+    const tileImageUrl = 'https://media-cdn.dovetailgames.com/2022/082022/08/TSW3_Xbox_Super_Hero_Art_1920x1080--2-.png';
 </script>
 
-<!-- <tile class='tile'>
-    <img class="tile" src={sandPatchGradeImg} alt="spg"/>
-    <div class="tile-caption">Game<br/>Train Sim World</div>
-</tile> -->
-
 <div class="tile">
-    <div class="image">okthen</div>
+    <div class="image" style="--image: url({tileImageUrl});">
+        <div class="caption-container">
+            <div class="caption">TRAIN SIM WORLD<div class="super">TM</div> 3</div>
+        </div>
+    </div>
 </div>
 
-
 <style>
-    
-    div.image {
-        height: 100%;
-        margin-left: 3px;
-        margin-right: 3px;
-        /* TODO - bring in URL from a prop instead of hardcoded. */
-        background-image: url('https://tswassets.blob.core.windows.net/assets/tsw3images/webp/small/niddertalbahn.webp');
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
-    }
-
     div.tile {
         display: block;
         float: left;
         min-width: 25%;
         height: 500px;
         max-width: 424px;
-        
-        
-
-        
-        
     }
-    /* div.tile {
-        background-image: url(sandPatchGradeImg);
 
-        width: 23%;
-        height: auto;
+    div.image {
+        height: 100%;
+        margin-left: 3px;
+        margin-right: 3px;
+        background-image: var(--image);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
         position: relative;
-        display: block;
-        float: left;
-        text-align: center;
-        margin-left: 0.25em;
-        
     }
 
-    img.tile {
-        width: 100%;
-        height: auto;
+    div.image:hover div.caption-container {
+        background-color: #D47C2E;
+        opacity: 100%;
     }
-    
-    div.tile-caption {
-        position: absolute;   
-        height: auto;
-        background: #001219;
-        color: white;
-        opacity: 0.8;
+
+    div.caption-container {
+        background-color: #1d2834;
+        position: absolute;
         bottom: 0;
-    } */
+        width: 100%;
+        height: 60px;
+        opacity: 70%;
+    }
 
-    
+    div.caption {
+        color: #FFF;
+        font-size: 1.25rem;
+        top: 50%;
+        margin: 1rem;
+    }
 
-    /* tile.tile:hover, div.tile-caption:hover {
-        background: blue;
-    } */
-
+    div.super {
+        font-size: 0.5rem;
+        display: inline;
+        vertical-align: top;
+    }
 </style>
