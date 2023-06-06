@@ -1,8 +1,23 @@
 <script>
-	import Counter from './Counter.svelte';
-	import Tile from './Tile.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
+	import QuarterTile from './QuarterTile.svelte';
+	import HalfTile from './HalfTile.svelte';
+
+	// TODO - host these images on my own account...
+	const games = [
+		{
+			imageUrl: "https://www.univers-simu.com/wp-content/uploads/2020/01/train-sim-world-new-york.jpg",
+			title: "Train Sim World"
+		},{
+			imageUrl: "https://media.moddb.com/images/games/1/80/79765/logo.jpg",
+			title: "Train Sim World 2"
+		},{
+			imageUrl: "https://pbs.twimg.com/media/EtZYC4YWYAEJ86_.jpg",
+			title: "Train Sim World 3"
+		},{
+			imageUrl: "https://www.univers-simu.com/wp-content/uploads/2022/09/tsw3-dlc.jpg",
+			title: "Recent DLC Routes"
+		},
+	];
 </script>
 
 <svelte:head>
@@ -13,67 +28,27 @@
 <h1>Interactive Maps for the Train Sim World Series</h1>
 
 <div class="tile-container">
-	<Tile />
-	<Tile />
-	<Tile />
-	<Tile />
+	{#each games as game}
+		<QuarterTile imageUrl={game.imageUrl} title={game.title} />
+	{/each}
 </div>
 
 <div class="tile-container">
-	<Tile />
-	<Tile />
+	<HalfTile imageUrl="https://media.railsimdev.com/2023/042023/04/TSW3_Screenshot8.jpg" title="Locos and Rolling Stock" />
+	<HalfTile imageUrl="https://tswassets.blob.core.windows.net/tsw3/routeIcons/worldmap.jpg" title="World Map" />
 </div>
 
-<section>
-	<h1>
-		<span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
-			</picture>
-		</span>
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
-	<Counter />
-</section>
-
 <style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 0.6;
-	}
-
 	h1 {
 		width: 100%;
-	}
-
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
+		margin-bottom: 35px;
+		color: white;
 	}
 
 	div.tile-container {
 		margin: 40px auto;
+		margin-top: 0px;
 		width: 95%;
-		
 		padding-left: 20px;
 		padding-right: 20px;
 	}

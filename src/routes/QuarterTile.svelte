@@ -1,11 +1,15 @@
 <script>
-    const tileImageUrl = 'https://media-cdn.dovetailgames.com/2022/082022/08/TSW3_Xbox_Super_Hero_Art_1920x1080--2-.png';
+    export let imageUrl;
+    export let title;
+    console.log(`imageurl: ${imageUrl}`);
 </script>
 
 <div class="tile">
-    <div class="image" style="--image: url({tileImageUrl});">
+    <div class="image" style="--image: url({imageUrl});">
         <div class="caption-container">
-            <div class="caption">TRAIN SIM WORLD<div class="super">TM</div> 3</div>
+            <!-- TODO - Setup TM superscript  -->
+            <!-- <div class="caption">TRAIN SIM WORLD<div class="super">TM</div> 3</div> -->
+            <div class="caption">{title}</div>
         </div>
     </div>
 </div>
@@ -41,7 +45,7 @@
         bottom: 0;
         width: 100%;
         height: 60px;
-        opacity: 70%;
+        opacity: 85%;
     }
 
     div.caption {
@@ -49,11 +53,5 @@
         font-size: 1.25rem;
         top: 50%;
         margin: 1rem;
-    }
-
-    div.super {
-        font-size: 0.5rem;
-        display: inline;
-        vertical-align: top;
     }
 </style>

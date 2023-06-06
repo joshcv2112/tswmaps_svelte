@@ -10,10 +10,13 @@
 		<slot />
 	</main>
 
+	<!-- TODO - sort out this footer -->
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<p>put some copywright here for TSW and some <a href="https://kit.svelte.dev">links</a> to my repo or something</p>
 	</footer>
 </div>
+
+<!-- TODO - Sort out the actual files in this project, how should components be organized? -->
 
 <style>
 	.app {
@@ -26,11 +29,12 @@
 		flex: 1;
 		display: flex;
 		flex-direction: column;
-		
 		width: 100%;
 		max-width: 100%;
 		margin: 0 auto;
 		box-sizing: border-box;
+		/* TODO - use the thing to generate a better color gradient background */
+		background: url("https://tswassets.blob.core.windows.net/tsw3/routeIcons/cool-background.png") center center / cover no-repeat fixed;
 	}
 
 	footer {
