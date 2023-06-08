@@ -6,16 +6,20 @@
 	const games = [
 		{
 			imageUrl: "https://www.univers-simu.com/wp-content/uploads/2020/01/train-sim-world-new-york.jpg",
-			title: "Train Sim World"
+			title: "Train Sim World",
+			url: "/tsw"
 		},{
 			imageUrl: "https://media.moddb.com/images/games/1/80/79765/logo.jpg",
-			title: "Train Sim World 2"
+			title: "Train Sim World 2",
+			url: "/tsw2"
 		},{
 			imageUrl: "https://pbs.twimg.com/media/EtZYC4YWYAEJ86_.jpg",
-			title: "Train Sim World 3"
+			title: "Train Sim World 3",
+			url: "/tsw3"
 		},{
 			imageUrl: "https://www.univers-simu.com/wp-content/uploads/2022/09/tsw3-dlc.jpg",
-			title: "Recent DLC Routes"
+			title: "Recent DLC Routes",
+			url: "/releases"
 		},
 	];
 </script>
@@ -29,7 +33,7 @@
 
 <div class="tile-container">
 	{#each games as game}
-		<QuarterTile imageUrl={game.imageUrl} title={game.title} />
+		<QuarterTile imageUrl={game.imageUrl} title={game.title} url={game.url} />
 	{/each}
 </div>
 
