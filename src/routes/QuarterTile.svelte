@@ -2,7 +2,6 @@
     export let imageUrl;
     export let title;
     export let url;
-    console.log(`imageurl: ${imageUrl}`);
 </script>
 
 <div class="tile">

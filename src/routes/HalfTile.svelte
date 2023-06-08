@@ -1,7 +1,6 @@
 <script>
     export let imageUrl;
     export let title;
-    console.log(`imageurl: ${imageUrl}`);
 </script>
 
 <div class="tile">

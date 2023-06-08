@@ -1,9 +1,9 @@
 {
-    "name": "Harlem Line",
-    "location": "Grand Central Terminal - North White Plains",
-    "initialCenter": { "lat": 40.92894685639941, "lng": -73.84615376208073 },
-    "zoom": 11.2,
-    "routeFacts": {
+   "name": "Harlem Line",
+   "location": "Grand Central Terminal - North White Plains",
+   "initialCenter": { "lat": 40.92894685639941, "lng": -73.84615376208073 },
+   "zoom": 11.2,
+   "routeFacts": {
       "name": "Harlem Line",
       "length": "24 miles (39 kilometers)",
       "country": "United States",
@@ -17,22 +17,23 @@
       "routeInfo": ["The route covers a 24 mile section of Metro-North's Harlem Line, from Grand Central Terminal in central New York to White Plains in Westchester County. The route is mostly urban, running through Manhattan and the Bronx before the more suburban areas of Westchester County. This is the section of the Harlem line with the most frequent services, with many services terminating at North White Plains."],
       "routeLayers": [
          {
-           "layerImgPng": "https://tswassets.blob.core.windows.net/assets/layers/HarlemLine/png/M3A_MTA_Tile.png",
-           "layerText": "49 Services",
-           "link": "/harlemLine"
+            "layerImgPng": "https://tswassets.blob.core.windows.net/assets/layers/HarlemLine/png/M3A_MTA_Tile.png",
+            "layerText": "49 Services",
+            "link": "/harlemLine"
          },
          {
-           "layerImgPng": "https://tswassets.blob.core.windows.net/assets/layers/HarlemLine/png/M7A_MTA_Tile.png",
-           "layerText": "214 Services",
-           "link": "/harlemLine"
+            "layerImgPng": "https://tswassets.blob.core.windows.net/assets/layers/HarlemLine/png/M7A_MTA_Tile.png",
+            "layerText": "214 Services",
+            "link": "/harlemLine"
          }
-       ]
-  },
-    "routeDetails": {
-        "type": "FeatureCollection",
-        "name": "railways",
-        "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-        "features":[       {
+      ]
+   },
+   "routeDetails": {
+      "type": "FeatureCollection",
+      "name": "railways",
+      "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+      "features":[       
+         {
             "type":"Feature",
             "properties":{
                "osm_id":5697865,
