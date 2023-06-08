@@ -1,11 +1,9 @@
 {
-    "id": 16,
     "name": "Schnellfrahrstrecke Köln",
     "location": "Aachen - Köln",
     "initialCenter": { "lat": 50.85902774184455, "lng": 6.567999825480043 },
     "zoom": 10.7,
     "routeFacts": {
-        "id": 16,
         "name": "Schnellfahrstrecke Köln-Aachen",
         "length": "70 kilometres (43 miles)",
         "country": "Germany",

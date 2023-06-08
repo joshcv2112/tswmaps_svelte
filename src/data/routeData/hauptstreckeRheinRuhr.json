@@ -1,11 +1,9 @@
 {
-    "id": 36,
     "name": "Hauptstrecke Rhein-Ruhr",
     "location": "Duisburg - Bochum, Germany",
     "initialCenter": { "lat": 51.463410484505495, "lng": 7.00502693347135 },
     "zoom": 11.3,
     "routeFacts": {
-      "id": 36,
       "name": "Hauptstrecke Rhein-Ruhr",
       "length": "46 kilometres (28 miles)",
       "country": "Germany",

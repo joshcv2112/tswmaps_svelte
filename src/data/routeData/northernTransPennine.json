@@ -1,11 +1,9 @@
 {
-    "id": 8,
     "name": "Northern Trans-Pennine",
     "location": "Manchester, UK - Leeds, UK",
     "initialCenter": { "lng": -1.8844450109996964, "lat": 53.62313269511751 },
     "zoom": 10.5,
     "routeFacts": {
-      "id": 8,
       "name": "Northern Trans-Pennine",
       "length": "43 miles (69 kilometres)",
       "country": "United Kingdom",

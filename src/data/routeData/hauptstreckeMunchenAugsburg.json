@@ -1,12 +1,10 @@
 {
-    "id": 19,
     "name": "Hauptstrecke München - Augsburg",
     "location": "",
     "initialCenter": { "lat": 48.25910059533928, "lng": 11.230708192331171 },
     "zoom": 10.8,
     "achievements": [],
     "routeFacts": {
-      "id": 19,
       "name": "Hauptstrecke München – Augsburg",
       "length": "62 kilometres (39 miles)",
       "country": "Germany",

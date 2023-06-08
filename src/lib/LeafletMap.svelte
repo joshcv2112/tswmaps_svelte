@@ -2,6 +2,8 @@
     import { onMount, onDestroy } from 'svelte';
     import { browser } from '$app/environment';
 
+    import routeData from '../data/routeData/harlemLine.json';
+
     let mapElement;
     let map;
 
@@ -36,42 +38,18 @@
             map.remove();
         }
     });
+
+    console.log(routeData);
 </script>
 
 
 <main>
-    <div class="row">
-        <div class="blockLeft">
-            <h1>Bakerloo Line</h1>
-        </div>
-        <!-- <div class="block">ayo</div> -->
-        <div class="blockRight" bind:this={mapElement}></div>
-    </div>
+    <div bind:this={mapElement}></div>
 </main>
 
 <style>
     @import 'leaflet/dist/leaflet.css';
     main div {
         height: 800px;
-    }
-
-    div.row {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    div.blockLeft {
-        display: inline-block;
-        width: 45%;
-        color: white;
-    }
-
-    div.blockRight {
-        display: inline-block;
-        width: 55%;
-        color: white;
     }
 </style>

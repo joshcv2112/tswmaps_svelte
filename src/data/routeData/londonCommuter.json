@@ -1,11 +1,9 @@
 {
-    "id": 29,
     "name": "London Commuter",
     "location": "London, UK - Brighton, UK",
     "initialCenter": { "lat": 51.20359655434636, "lng": -0.1458922763815934  },
     "zoom": 9.5,
     "routeFacts": {
-      "id": 29,
       "name": "London Commuter",
       "length": "50 miles (80 kilometres)",
       "country": "United Kingdom",

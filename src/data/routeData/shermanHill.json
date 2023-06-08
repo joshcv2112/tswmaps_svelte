@@ -1,10 +1,8 @@
 {
-    "id": 31,
     "name": "Sherman Hill",
     "location": "Laramie - Cheyenne, Wyoming",
     "initialCenter": { "lat": 41.11031048923301, "lng": -105.17857353062963 },
     "routeFacts": {
-        "id": 31,
         "name": "Sherman Hill",
         "length": "58 miles (93 kilometres)",
         "country": "United States",

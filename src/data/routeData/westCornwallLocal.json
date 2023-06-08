@@ -1,10 +1,8 @@
 {
-    "id": 30,
     "name": "West Cornwall Local",
     "location": "Penzance - St Austell & St Ives",
     "initialCenter": { "lat": 50.240314189784996, "lng": -5.1504301706596 },
     "routeFacts": {
-        "id": 30,
         "name": "West Cornwall Local",
         "length": "44 miles (70 kilometres)",
         "country": "United Kingdom",

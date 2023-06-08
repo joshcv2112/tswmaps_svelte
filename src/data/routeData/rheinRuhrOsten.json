@@ -1,12 +1,10 @@
 {
-    "id": 12,
     "name": "Rhein-Ruhr Osten",
     "location": "Hagen HBF - Wuppertal - Steinbeck",
     "initialCenter": { "lat": 51.311164729852436, "lng": 7.309468065360542 },
     "zoom": 11.3,
     "achievements": [],
     "routeFacts": {
-        "id": 12,
         "name": "Rhein-Ruhr Osten",
         "length": "42 kilometres (26 miles)",
         "country": "Germany",

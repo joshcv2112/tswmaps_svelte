@@ -1,11 +1,9 @@
 {
-    "id": 1,
     "name": "Sand Patch Grade",
     "location": "Cumberland, MD - Rockwood, PA",
     "initialCenter": { "lat": 39.77523887360827, "lng": -78.92569587218162 },
     "zoom": 10.9,
     "routeFacts": {
-      "id": 1,
       "name": "Sand Patch Grade",
       "length": "52 miles (84 kilometers)\n57 miles (92 kilometers) (including branches)",
       "country": "United States",

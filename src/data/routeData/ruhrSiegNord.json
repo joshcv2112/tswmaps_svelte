@@ -1,12 +1,10 @@
 {
-    "id": 6,
     "name": "Ruhr Sieg Nord",
     "location": "Hagen, Germany - Finnentrop, Germany",
     "initialCenter": { "lat": 51.27861597451647, "lng": 7.712526199126446 },
     "zoom": 11.1,
     "achievements": [],
     "routeFacts": {
-        "id": 6,
         "name": "Ruhr Sieg Nord",
         "length": "61 kilometres (38 miles)",
         "country": "Germany",

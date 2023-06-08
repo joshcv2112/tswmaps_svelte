@@ -1,11 +1,9 @@
 {
-    "id": 33,
     "name": "S-Bahn Zentralschweiz",
     "location": "Luzern, Switzerland - Sursee, Switzerland",
     "initialCenter": { "lat": 47.10670017900558, "lng": 8.199666656343599 },
     "zoom": 12.1,
     "routeFacts": {
-      "id": 33,
       "name": "S-Bahn Zentralschweiz",
       "length": "26 kilometres (16 miles)",
       "country": "Switzerland",

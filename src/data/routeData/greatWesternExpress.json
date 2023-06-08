@@ -1,10 +1,8 @@
 {
-    "id": 2,
     "name": "Great Western Express",
     "location": "London Paddington - Reading",
     "initialCenter": { "lat": 51.501473101930145, "lng": -0.5707616147724613 },
     "routeFacts": {
-        "id": 2,
         "name": "Great Western Express",
         "length": "36 miles (58 km)",
         "country": "United Kingdom",

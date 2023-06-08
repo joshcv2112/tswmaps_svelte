@@ -1,11 +1,9 @@
 {
-    "id": 20,
     "name": "LGV Méditerranée",
     "location": "Marseille, France - Avignon, France",
     "initialCenter": { "lat": 43.62556583582321, "lng": 5.137650534084027 },
     "zoom": 10.1,
     "routeFacts": {
-        "id": 20,
         "name": "LGV Méditerranée",
         "length": "93.5 kilometres (58 miles)",
         "country": "France",

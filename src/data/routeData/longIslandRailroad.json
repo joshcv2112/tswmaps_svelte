@@ -1,10 +1,8 @@
 {
-    "id": 7,
     "name": "Long Island Railroad",
     "location": "New York Penn - Atlantic Terminal Brooklyn - Hicksville",
     "initialCenter": { "lat": 40.733075206397196, "lng": -73.7764907376202 },
     "routeFacts": {
-        "id": 7,
         "name": "Long Island Rail Road",
         "length": "42 miles (687 kilometres)",
         "country": "United States",

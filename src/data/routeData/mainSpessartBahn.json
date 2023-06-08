@@ -1,12 +1,10 @@
 {
-    "id": 9,
     "name": "Main-Spessart Bahn",
     "location": "Aschaffenburg - Gemünden, Germany",
     "initialCenter": { "lat": 50.00867441046822, "lng": 9.410682992433058 },
     "zoom": 10.8,
     "achievements": [],
     "routeFacts": {
-        "id": 9,
         "name": "Main-Spessart Bahn",
         "length": "52 kilometres (32 miles)\n65 kilometres (40 miles) (including branches)",
         "country": "Germany",
