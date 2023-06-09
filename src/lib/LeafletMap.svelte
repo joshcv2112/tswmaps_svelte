@@ -2,7 +2,7 @@
     import { onMount, onDestroy } from 'svelte';
     import { browser } from '$app/environment';
 
-    import routeData from '../data/routeData/tsw2/harlemLine.json';
+    // import routeData from '../data/routeData/tsw2/harlemLine.json';
 
     let mapElement;
     let map;
