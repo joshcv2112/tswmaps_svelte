@@ -1,0 +1,63 @@
+{
+    "name": "Train Sim World 2",
+    "dlcRoutes": [
+        {
+            "name": "Schnellfahrstrecke Kassel-Würzburg",
+            "path": "/schnellfahrstreckeKasselWurzburg"
+        },{
+            "name": "Cajon Pass",
+            "path": "/cajonPass"
+        },{
+            "name": "Southeastern High Speed Extended",
+            "path": "/southeasternHighSpeedExtended"
+        },{
+            "name": "Birmingham Cross-City Line",
+            "path": "/birminghamCrossCityLine"
+        },{
+            "name": "Bahnstrecke Bremen - Oldenburg",
+            "path": "/bahnstreckeBremenOldenburg"
+        },{
+            "name": "ScotRail Express: Edinburgh - Glasgow",
+            "path": "/scotRailExpress"
+        },{
+            "name": "Northeast Corridor: New York - Trenton",
+            "path": "/northeastCorridorNewYorkTrenton"
+        },{
+            "name": "Linke Rheinstrecke: Mainz - Koblenz",
+            "path": "/linkeRheinstrecke"
+        },{
+            "name": "Niddertalbahn",
+            "path": "/niddertalbahn"
+        },{
+            "name": "Midlands Main Line: Leicester - Derby and Nottingham",
+            "path": "/midlandsMainLine"
+        },{
+            "name": "Peak Forest: Ambergate - Chinley and Buxton",
+            "path": "/peakForest"
+        },{
+            "name": "Glossop Line: Manchester - Hadfield & Glossop",
+            "path": "/glossopLine"
+        }
+    ],
+    "dlcLocos": [
+        {
+            "name": "Loco Add-On Bundle 1",
+            "path": "/locoAddOnBundle1"
+        },{
+            "name": "Holiday Express",
+            "path": "/holidayExpress"
+        },{
+            "name": "Amtrak Acela",
+            "path": "/amtrakAcela"
+        },{
+            "name": "Union Pacific Heritage Collection",
+            "path": "/unionPacificHeritageCollection"
+        },{
+            "name": "West Cornwall Steam Railtour",
+            "path": "/westCornwallSteamRailtour"
+        },{
+            "name": "Loco Add-On Bundle 2",
+            "path": "/locoAddOnBundle2"
+        }
+    ]
+}

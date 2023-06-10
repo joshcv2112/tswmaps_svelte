@@ -1,0 +1,95 @@
+{
+    "name": "Train Sim World",
+    "dlcRoutes": [
+        {
+            "name": "Sand Patch Grade",
+            "altName": "CSX Heavy Haul",
+            "path": "/sandPatchGrade"
+        },{
+            "name": "Great Western Express",
+            "path": "/greatWesternExpress"
+        },{
+            "name": "Rapid Transit",
+            "path": "/rapidTransit"
+        },{
+            "name": "NEC: New York",
+            "path": "/necNewYork"
+        },{
+            "name": "West Sommerset Railway",
+            "path": "/westSommersetRailway"
+        },{
+            "name": "Ruhr Sieg Nord",
+            "path": "/ruhrSiegNord"
+        },{
+            "name": "Long Island Rail Road",
+            "path": "/longIslandRailRoad"
+        },{
+            "name": "Northern Trans-Pennine",
+            "path": "/northernTransPennine"
+        },{
+            "name": "Main-Spessart Bahn",
+            "path": "/mainSpessartBahn"
+        },{
+            "name": "Tees Valley Line",
+            "path": "/teesValleyLine"
+        },{
+            "name": "Peninsula Corridor",
+            "path": "/peninsulaCorridor"
+        },{
+            "name": "Rhein-Ruhr Osten",
+            "path": "/rheinRuhrOsten"
+        },{
+            "name": "East Coastway",
+            "path": "/eastCoastway"
+        },{
+            "name": "CN Oakville Subdivision",
+            "path": "/cnOakvilleSubdivision"
+        },{
+            "name": "Hauptstrecke Rhein-Ruhr",
+            "path": "/hauptstreckeRheinRuhr"
+        }
+    ],
+    "dlcLocos": [
+        {
+            "name": "CSX GP40-2",
+            "path": "/csxGP40-2"
+        },{
+            "name": "BR Class 33",
+            "path": "/brClass33"
+        },{
+            "name": "DB BR 182",
+            "path": "/DBBR182"
+        },{
+            "name": "DB BR 155",
+            "path": "/DBBR155"
+        },{
+            "name": "BR Class 52",
+            "path": "/BRClass52"
+        },{
+            "name": "BR Heavy Freight Pack",
+            "path": "/brHeavyFreightPack"
+        },{
+            "name": "Amtrak SW1000R",
+            "path": "/amtrakSW1000R"
+        },{
+            "name": "BR Class 31",
+            "path": "/BRClass31"
+        },{
+            "name": "MP36PH-3C",
+            "altName": "Baby Bullet",
+            "path": "/MP36PH-3C"
+        },{
+            "name": "MP15DC",
+            "path": "/MP15DC"
+        },{
+            "name": "DB BR 204",
+            "path": "/DBBR204"
+        },{
+            "name": "LIRR M3",
+            "path": "/LIRRM3"
+        },{
+            "name": "BR Class 20",
+            "path": "/BRClass20"
+        }
+    ]
+}

@@ -1,0 +1,115 @@
+{
+    "name": "Train Sim World 3",
+    "dlcRoutes": [
+        {
+            "name": "Schnellfahrstrecke Köln-Aachen",
+            "path": "/schnellfahrstreckeKolnAachen"
+        },{
+            "name": "Bakerloo Line",
+            "path": "/bakerlooLine"
+        },{
+            "name": "Sand Patch Grade",
+            "path": "/sandPatchGrade"
+        },{
+            "name": "Isle of Wight: Ryde - Shanklin",
+            "path": "/isleOfWight"
+        },{
+            "name": "Hauptstrecke München – Augsburg",
+            "path": "/hauptstreckeMunchenAugsburg"
+        },{
+            "name": "LGV Méditerranée",
+            "path": "/lgvMediterranee"
+        },{
+            "name": "Southeastern High Speed",
+            "path": "/southeasternHighSpeed"
+        },{
+            "name": "Arosalinie: Chur - Arosa",
+            "path": "/arosalinie"
+        },{
+            "name": "Clinchfield Railroad",
+            "path": "/clinchfieldRailroad"
+        },{
+            "name": "Hauptstrecke Hamburg – Lübeck",
+            "path": "/hauptstreckeHamburgLubeck"
+        },{
+            "name": "Cathcart Circle Line",
+            "altName": "Scottish City Commuter",
+            "path": "/cathcartCircleLine"
+        },{
+            "name": "Cane Creek: Thompson - Potash",
+            "path": "/caneCreek"
+        },{
+            "name": "Rush Hour: Boston Sprinter",
+            "path": "/bostonSprinter"
+        },{
+            "name": "Rush Hour: Nahverkehr Dresden",
+            "path": "/nahverkehrDresden"
+        },{
+            "name": "Rush Hour: London Commuter",
+            "path": "/londonCommuter"
+        },{
+            "name": "West Cornwall Local",
+            "path": "/westCornwallLocal"
+        },{
+            "name": "Sherman Hill",
+            "path": "/shermanHill"
+        },{
+            "name": "Tharandter Rampe",
+            "path": "/tharandterRampe"
+        },{
+            "name": "Harlem Line",
+            "path": "/harlemLine"
+        },{
+            "name": "S-Bahn Zentralschweiz: Luzern - Sursee",
+            "path": "/sBahnZentralschweiz"
+        },{
+            "name": "Horseshoe Curve",
+            "path": "/horseshoeCurve"
+        },{
+            "name": "Spirit of Steam",
+            "path": "/spiritOfSteam"
+        },{
+            "name": "Island Line 2022: BR Class 484",
+            "path": "/islandLine2022"
+        }
+    ],
+    "dlcLocos": [
+        {
+            "name": "DB BR 363",
+            "path": "/DBBR363"
+        },{
+            "name": "CSX C40-8W",
+            "path": "CSXC408W"
+        },{
+            "name": "BR Class 465",
+            "path": "/BRClass465"
+        },{
+            "name": "Diesel Legends of the Great Western",
+            "path": "/dieselLegendsOfTheGreatWestern"
+        },{
+            "name": "DB BR 101",
+            "path": "/DBBR101"
+        },{
+            "name": "London Underground 1938 Tube Stock",
+            "path": "/londonUnderground1938TubeStock"
+        },{
+            "name": "DB BR 187",
+            "path": "/DBBR187"
+        },{
+            "name": "BR Class 313 EMU",
+            "path": "/BRClass313"
+        },{
+            "name": "DB G6",
+            "path": "/DBG6"
+        },{
+            "name": "RhB Anniversary Collection",
+            "path": "/rhbAnniversaryCollection"
+        },{
+            "name": "New Journeys Expansion",
+            "path": "/newJourneysExpansion"
+        },{
+            "name": "BR Class 484: Island Line 2022",
+            "path": "/BRClass484"
+        }
+    ]
+}
