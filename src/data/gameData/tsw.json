@@ -4,92 +4,112 @@
         {
             "name": "Sand Patch Grade",
             "altName": "CSX Heavy Haul",
-            "path": "/sandPatchGrade"
+            "path": "/sandPatchGrade",
+            "image": "https://store-images.s-microsoft.com/image/apps.22741.13707257899706820.246f03aa-91f9-49fc-a0cd-2b0cd263a86d.1fd3c63b-79bc-4b08-b0f3-b2bbeb71c65c?q=90&w=177&h=265"
         },{
             "name": "Great Western Express",
-            "path": "/greatWesternExpress"
+            "path": "/greatWesternExpress",
+            "image": "https://store-images.s-microsoft.com/image/apps.15560.14494904620820709.af136413-7894-4644-a24b-976b941bf93f.0aa1a98a-234a-49f7-8b24-51709d3e82e8?q=90&w=177&h=265"
         },{
             "name": "Rapid Transit",
-            "path": "/rapidTransit"
-        },{
-            "name": "NEC: New York",
-            "path": "/necNewYork"
+            "path": "/rapidTransit",
+            "image": "https://store-images.s-microsoft.com/image/apps.45925.14394281181673073.0af37767-4f3f-40bd-9efe-092b865bb3ac.cd5f0fbb-b107-4be8-b977-21e13d41dc5a?q=90&w=177&h=265"
         },{
             "name": "West Sommerset Railway",
-            "path": "/westSommersetRailway"
+            "path": "/westSommersetRailway",
+            "image": "https://store-images.s-microsoft.com/image/apps.23649.63669555756797889.5f6d84d0-5287-479e-83e0-ef279d68194d.3aeb9c4f-9390-45ad-ab0f-0a06f46cc3a9?q=90&w=177&h=265"
         },{
             "name": "Ruhr Sieg Nord",
-            "path": "/ruhrSiegNord"
+            "path": "/ruhrSiegNord",
+            "image": "https://store-images.s-microsoft.com/image/apps.34278.66474133036722926.b2cf789a-eac8-4806-8834-6d936088dc95.45a5d3de-0260-4dfe-8e31-ee31a45243a3?q=90&w=177&h=265"
         },{
             "name": "Long Island Rail Road",
-            "path": "/longIslandRailRoad"
+            "path": "/longIslandRailRoad",
+            "image": "https://store-images.s-microsoft.com/image/apps.58818.64076773322871253.6c6ee8ea-e874-4d72-b3e3-b522b406fc6f.40979038-f319-47e9-9ed3-5d4b7a05829f?q=90&w=177&h=265"
         },{
             "name": "Northern Trans-Pennine",
-            "path": "/northernTransPennine"
+            "path": "/northernTransPennine",
+            "image": "https://store-images.s-microsoft.com/image/apps.44478.64192761469644564.b8ed9b9f-3e92-4fa2-8457-ef0a4d94541e.2b307a0c-23b7-4cd8-a35c-11ae58a20190?q=90&w=177&h=265"
         },{
             "name": "Main-Spessart Bahn",
-            "path": "/mainSpessartBahn"
+            "path": "/mainSpessartBahn",
+            "image": "https://store-images.s-microsoft.com/image/apps.21695.71615932146521168.23f085f3-3ec9-4e7a-9426-095b2c00f4ee.fb7c0f50-2506-4394-ac4d-8f310ce0251f?q=90&w=177&h=265"
         },{
             "name": "Tees Valley Line",
-            "path": "/teesValleyLine"
+            "path": "/teesValleyLine",
+            "image": "https://store-images.s-microsoft.com/image/apps.25051.14525698477666151.7a2fcf77-cd54-4ccf-8ce4-611fb1f5855d.0ea0f673-f96e-4234-8117-8c63f94d89d6?q=90&w=177&h=265"
         },{
             "name": "Peninsula Corridor",
-            "path": "/peninsulaCorridor"
+            "path": "/peninsulaCorridor",
+            "image": "https://store-images.s-microsoft.com/image/apps.48318.14008147163278733.9fece8f2-8f01-4596-99e9-51717fdca46e.23ee9297-5794-4388-8397-5af943b235a0?q=90&w=177&h=265"
         },{
             "name": "Rhein-Ruhr Osten",
-            "path": "/rheinRuhrOsten"
+            "path": "/rheinRuhrOsten",
+            "image": "https://store-images.s-microsoft.com/image/apps.35314.14360776366951718.618f8a17-5ce0-4676-aa12-895b2eec6fa7.6e04bf3e-ac37-40a5-be7f-37ece30a0ae6?q=90&w=177&h=265"
         },{
             "name": "East Coastway",
-            "path": "/eastCoastway"
+            "path": "/eastCoastway",
+            "image": "https://store-images.s-microsoft.com/image/apps.13043.14238705170140953.37a2e091-7953-411e-a1fe-64f303bfccf1.dee6e20d-c84a-4fb9-9343-c06b171be5e3?q=90&w=177&h=265"
         },{
             "name": "CN Oakville Subdivision",
-            "path": "/cnOakvilleSubdivision"
+            "path": "/cnOakvilleSubdivision",
+            "image": "https://store-images.s-microsoft.com/image/apps.43847.14542905633807502.82453e30-c03c-4435-b0a3-21862e576115.63e9c8bb-91e0-4e61-8a5f-a660c4c851bf?q=90&w=177&h=265"
         },{
             "name": "Hauptstrecke Rhein-Ruhr",
-            "path": "/hauptstreckeRheinRuhr"
+            "path": "/hauptstreckeRheinRuhr",
+            "image": "https://store-images.s-microsoft.com/image/apps.357.13977932904411231.2d338b32-f88d-4b7e-993c-0c7b2df8186a.00a38698-b037-46b8-9fd6-8adc6d8f4922?q=90&w=177&h=265"
         }
     ],
     "dlcLocos": [
         {
             "name": "CSX GP40-2",
-            "path": "/csxGP40-2"
+            "path": "/csxGP40-2",
+            "image": "https://store-images.s-microsoft.com/image/apps.29116.71579446023693033.e5ec22c0-aa5e-4898-8c95-a3f936bcaf7f.27230980-6138-4caa-b200-061ef1916e9a?q=90&w=177&h=265"
         },{
             "name": "BR Class 33",
-            "path": "/brClass33"
+            "path": "/brClass33",
+            "image": "https://store-images.s-microsoft.com/image/apps.19331.71916138739783619.55033e76-5522-4476-8f8c-92f8ef83c700.0139bd7e-64e9-455a-a815-e4366d49b7a6?q=90&w=177&h=265"
         },{
             "name": "DB BR 182",
-            "path": "/DBBR182"
+            "path": "/DBBR182",
+            "image": "https://store-images.s-microsoft.com/image/apps.65073.63302186454634837.f6f08222-e837-46b3-81fd-436870766868.f3b9824a-ff8c-48d8-9368-18eb9a0ab4d9?q=90&w=177&h=265"
         },{
             "name": "DB BR 155",
-            "path": "/DBBR155"
+            "path": "/DBBR155",
+            "image": "https://store-images.s-microsoft.com/image/apps.30765.66138016952032130.78313163-fe01-4d3d-98f6-8caafe7a89ce.71c3427f-d6a1-4f5a-8d0f-af530e16a7c2?q=90&w=177&h=265"
         },{
             "name": "BR Class 52",
-            "path": "/BRClass52"
+            "path": "/BRClass52",
+            "image": "https://store-images.s-microsoft.com/image/apps.56005.71891384560520076.3df7b8a0-fd11-4d5d-a622-61d1c5e6c458.5138db09-0d8a-4cb5-beb9-b6cb5d8262ec?q=90&w=177&h=265"
         },{
             "name": "BR Heavy Freight Pack",
-            "path": "/brHeavyFreightPack"
-        },{
-            "name": "Amtrak SW1000R",
-            "path": "/amtrakSW1000R"
+            "path": "/brHeavyFreightPack",
+            "image": "https://store-images.s-microsoft.com/image/apps.61255.14554106126690844.bbbe39ae-4595-4c24-befe-0dc86e061678.853b5cea-c344-44da-9cc8-3268d55a50e3?q=90&w=177&h=265"
         },{
             "name": "BR Class 31",
-            "path": "/BRClass31"
+            "path": "/BRClass31",
+            "image": "https://store-images.s-microsoft.com/image/apps.14529.14256253907482121.890bfa4d-2e25-4d3f-8e0d-7c74afec61bf.74cc0fd5-808a-4e08-a68a-dd75e4b4e78f?q=90&w=177&h=265"
         },{
             "name": "MP36PH-3C",
             "altName": "Baby Bullet",
-            "path": "/MP36PH-3C"
+            "path": "/MP36PH-3C",
+            "image": "https://store-images.s-microsoft.com/image/apps.19143.13635932574850851.4630072b-e1f3-44fb-9290-eec7733ce653.9fa837bc-0820-451d-9e03-a9c8fa7951a1?q=90&w=177&h=265"
         },{
             "name": "MP15DC",
-            "path": "/MP15DC"
+            "path": "/MP15DC",
+            "image": "https://store-images.s-microsoft.com/image/apps.3134.14555568406629556.3aeba646-3791-45e4-a1a2-96c80c04efff.588123d7-e97b-414c-ac0e-884402a554a0?q=90&w=177&h=265"
         },{
             "name": "DB BR 204",
-            "path": "/DBBR204"
+            "path": "/DBBR204",
+            "image": "https://store-images.s-microsoft.com/image/apps.63962.13616123661386580.dd2aae4b-af53-4c4c-8fd1-928105a3b3e8.4fafedc7-1e59-45c9-9595-34b9fc3dcb7f?q=90&w=177&h=265"
         },{
             "name": "LIRR M3",
-            "path": "/LIRRM3"
+            "path": "/LIRRM3",
+            "image": "https://store-images.s-microsoft.com/image/apps.51340.14633564027896860.6e74d64e-eb23-47f8-9bbe-3e7634122352.0b1b1e69-b37c-436a-8314-ba510eec5239?q=90&w=177&h=265"
         },{
             "name": "BR Class 20",
-            "path": "/BRClass20"
+            "path": "/BRClass20",
+            "image": "https://store-images.s-microsoft.com/image/apps.47851.14155340936270382.f93b7402-6e83-4c03-a797-eac13f33c75b.45d756ca-7837-4573-a8f1-8802d251f9d3?q=90&w=177&h=265"
         }
     ]
 }
