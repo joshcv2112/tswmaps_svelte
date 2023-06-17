@@ -1,5 +1,18 @@
 <script>
+    import { onMount } from 'svelte';
+    import { page } from '$app/stores';
+    const routeName = $page.params.routeName;
+
     import LeafletMap from '$lib/LeafletMap.svelte';
+    
+    // USE DYNAMIC IMPORTS HERE 
+    const dataPath = '../../../data/routeData/arosalinie.json';
+    let jsonData;
+    onMount(async () => {
+        // This data to be passed on to <LeafletMap /> component to render map
+        jsonData = (await import(/* #vite-i`gnore */ dataPath)).default;
+        console.log('ayo' + JSON.stringify(jsonData));
+    });
 </script>
 
 <main>
@@ -12,6 +25,10 @@
         </div>
     </div>
 </main>
+
+<pre>
+    {JSON.stringify(jsonData)}
+</pre>
 
 <style>
     @import 'leaflet/dist/leaflet.css';

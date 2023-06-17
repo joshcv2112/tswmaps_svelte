@@ -1,15 +1,13 @@
 <script>
-    const gweImageUrl = 'https://store-images.s-microsoft.com/image/apps.15560.14494904620820709.af136413-7894-4644-a24b-976b941bf93f.0aa1a98a-234a-49f7-8b24-51709d3e82e8?q=90&w=177&h=265';
-
     import { onMount } from 'svelte';
     import { page } from '$app/stores';
-    const game = $page.params.game;
+    const gameId = $page.params.gameId;
 
     let jsonData;
     let gameRoutes;
     let gameLocos;
     let gameName;
-    const dataPath = `../../data/gameData/${game}.json`;
+    const dataPath = `../../../data/gameData/${gameId}.json`;
 
     onMount(async () => {
         jsonData = (await import(/* @vite-ignore */ dataPath)).default;
@@ -27,7 +25,7 @@
         {#each gameRoutes as game}
             <div class="tile">
                 <!-- TODO - These images are hosted by xbox, I should download and host on my own stuff -->
-                <img src={game.image} alt={game.name} />
+                <a href={'/route'+game.path}><img src={game.image} alt={game.name} /></a>
                 <!-- <div>{game.name}</div>
                 {#if game.altName}
                     <div>{game.altName}</div>
@@ -65,7 +63,7 @@
     }
 
     div.tile:hover {
-        transform: scale(1.1); 
+        transform: scale(1.075); 
     }
 
     div.loading-message {
