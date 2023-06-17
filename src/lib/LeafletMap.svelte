@@ -2,33 +2,27 @@
     import { onMount, onDestroy } from 'svelte';
     import { browser } from '$app/environment';
 
-    // import routeData from '../data/routeData/tsw2/harlemLine.json';
-
     let mapElement;
     let map;
+
+    export let data;
 
     onMount(async () => {
         if(browser) {
             const leaflet = await import('leaflet');
 
-            map = leaflet.map(mapElement).setView([51.505, -0.09], 13);
+            map = leaflet.map(mapElement).setView(L.latLng(data.initialCenter.lat, data.initialCenter.lng), data.zoom);
 
             leaflet.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             }).addTo(map);
 
-            leaflet.marker([51.5, -0.09]).addTo(map)
-                .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
-                .openPopup();
+            // Use this to mark collectibles??
+            // leaflet.marker([51.5, -0.09]).addTo(map)
+            //     .bindPopup('A pretty CSS3 popup.<br> Easily customizable.');
 
-            var myGeoJSON = [{
-                "type": "LineString",
-                "coordinates": [[-100, 40], [-105, 45], [-110, 55]]
-            }, {
-                "type": "LineString",
-                "coordinates": [[-105, 40], [-110, 45], [-115, 55]]
-            }];
-            leaflet.geoJSON(myGeoJSON).addTo(map);
+            const geoJSON = data.routeDetails.features;
+            leaflet.geoJSON(geoJSON, {color: "#FF0000", weight: 4}).addTo(map);
         }
     });
 
