@@ -4,30 +4,36 @@
     const routeName = $page.params.routeName;
 
     import LeafletMap from '$lib/LeafletMap.svelte';
-    
-    // USE DYNAMIC IMPORTS HERE 
-    const dataPath = '../../../data/routeData/arosalinie.json';
-    let jsonData;
+    import RouteInfo from '$lib/RouteInfo.svelte';
+
+    const dataPath = `../../../data/routeData/${routeName}.json`;
+    let routeData;
     onMount(async () => {
-        // This data to be passed on to <LeafletMap /> component to render map
-        jsonData = (await import(/* #vite-i`gnore */ dataPath)).default;
-        console.log('ayo' + JSON.stringify(jsonData));
+        routeData = (await import(/* @vite-ignore */ dataPath)).default;
+        console.log('ayo' + JSON.stringify(routeData));
     });
 </script>
 
 <main>
     <div class="row">
         <div class="blockLeft">
-            <h1>Harlem Line</h1>
+            {#if routeData}
+                <h1>{routeData.name}</h1>
+                <h1>{routeData.location}</h1>
+                <RouteInfo info={routeData.routeFacts} />
+            {:else}
+                <h1>loading...</h1>
+            {/if}
         </div>
         <div class="blockRight">
+            <!-- TODO - have a default map for if/when the main map isn't loaded -->
             <LeafletMap />
         </div>
     </div>
 </main>
 
 <pre>
-    {JSON.stringify(jsonData)}
+    {JSON.stringify(routeData)}
 </pre>
 
 <style>
