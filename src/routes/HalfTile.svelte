@@ -1,16 +1,19 @@
 <script>
     export let imageUrl;
     export let title;
+    export let url;
 </script>
 
 <div class="tile">
-    <div class="image" style="--image: url({imageUrl});">
-        <div class="caption-container">
-            <!-- TODO - Setup TM superscript  -->
-            <!-- <div class="caption">TRAIN SIM WORLD<div class="super">TM</div> 3</div> -->
-            <div class="caption">{title}</div>
+    <a href={url}>
+        <div class="image" style="--image: url({imageUrl});">
+            <div class="caption-container">
+                <!-- TODO - Setup TM superscript  -->
+                <!-- <div class="caption">TRAIN SIM WORLD<div class="super">TM</div> 3</div> -->
+                <div class="caption">{title}</div>
+            </div>
         </div>
-    </div>
+    </a>
 </div>
 
 <style>
@@ -51,12 +54,6 @@
         color: #FFF;
         font-size: 1.25rem;
         top: 50%;
-        margin: 1rem;
-    }
-
-    div.super {
-        font-size: 0.5rem;
-        display: inline;
-        vertical-align: top;
+        margin: 1.25rem;
     }
 </style>

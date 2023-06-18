@@ -54,6 +54,6 @@
         color: #FFF;
         font-size: 1.25rem;
         top: 50%;
-        margin: 1rem;
+        margin: 1.25rem;
     }
 </style>
