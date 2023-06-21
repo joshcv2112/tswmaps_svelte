@@ -3,7 +3,6 @@
     import { browser } from '$app/environment';
 
     export let routes;
-    export let testVar;
     export let mapPosition;
 
     let mapElement;
