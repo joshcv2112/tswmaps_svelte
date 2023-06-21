@@ -17,7 +17,6 @@
         if(browser) {
             const leaflet = await import('leaflet');
 
-            // map = leaflet.map(mapElement).setView(L.latLng(53.93526985773823, -2.1347305373923304), 6.25);
             map = leaflet.map(mapElement).setView(L.latLng(mapPosition.lat, mapPosition.lng), mapPosition.zoom);
 
             leaflet.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -40,8 +39,6 @@
 
 
 <main>
-
-    <h1>{testVar}</h1>
     <div bind:this={mapElement}></div>
 </main>
 
