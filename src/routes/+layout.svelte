@@ -33,8 +33,11 @@
 		max-width: 100%;
 		margin: 0 auto;
 		box-sizing: border-box;
-		/* TODO - use the thing to generate a better color gradient background */
-		background: url("https://tswassets.blob.core.windows.net/tsw3/routeIcons/cool-background.png") center center / cover no-repeat fixed;
+		background: rgb(0,0,0);
+		background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,18,25,1) 48%, rgba(0,0,0,1) 100%); 
+		-ms-overflow-style: none; /* for Internet Explorer, Edge */
+		scrollbar-width: none; /* for Firefox */
+		overflow-y: scroll; 
 	}
 
 	footer {
@@ -42,7 +45,6 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		padding: 12px;
 		background-color: #001219;
 		color: white;
 	}

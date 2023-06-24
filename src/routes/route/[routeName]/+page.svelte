@@ -13,7 +13,7 @@
     });
 </script>
 
-<main>
+<div class="main">
     {#if routeData}
     <div class="row">
         <div class="blockLeft">
@@ -28,12 +28,12 @@
     {:else}
         <h1>Loading . . .</h1>
     {/if}
-</main>
+</div>
 
 <style>
     @import 'leaflet/dist/leaflet.css';
-    main div {
-        height: 800px;
+    div.main {
+        
     }
 
     div.row {
@@ -48,6 +48,7 @@
         display: inline-block;
         width: 45%;
         color: white;
+        overflow-y: scroll;
     }
 
     div.blockRight {
