@@ -5,7 +5,7 @@
 </script>
 
 <div class="tile">
-    <a href={'/game'+url}>
+    <a href={url}>
         <div class="image" style="--image: url({imageUrl});">
             <div class="caption-container">
                 <!-- TODO - Setup TM superscript  -->

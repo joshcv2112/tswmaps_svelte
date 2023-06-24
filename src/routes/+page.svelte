@@ -7,19 +7,19 @@
 		{
 			imageUrl: "https://www.univers-simu.com/wp-content/uploads/2020/01/train-sim-world-new-york.jpg",
 			title: "Train Sim World",
-			url: "/tsw"
+			url: "/game/tsw"
 		},{
 			imageUrl: "https://media.moddb.com/images/games/1/80/79765/logo.jpg",
 			title: "Train Sim World 2",
-			url: "/tsw2"
+			url: "/game/tsw2"
 		},{
 			imageUrl: "https://pbs.twimg.com/media/EtZYC4YWYAEJ86_.jpg",
 			title: "Train Sim World 3",
-			url: "/tsw3"
+			url: "/game/tsw3"
 		},{
-			imageUrl: "https://www.univers-simu.com/wp-content/uploads/2022/09/tsw3-dlc.jpg",
-			title: "Recent DLC Routes",
-			url: "/releases"
+			imageUrl: "https://tswassets.blob.core.windows.net/assets/glossopLine_hometile.jpg",
+			title: "Latest Release | Glossop Line",
+			url: "/route/glossopLine"
 		},
 	];
 </script>

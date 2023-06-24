@@ -32,10 +32,6 @@
 
 <style>
     @import 'leaflet/dist/leaflet.css';
-    div.main {
-        
-    }
-
     div.row {
         width: 100%;
         height: 100%;

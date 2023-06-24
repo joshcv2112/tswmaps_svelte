@@ -20,7 +20,8 @@
     import teesValleyLine from '../../data/routeData/teesValleyLine.json';
     import westCornwallLocal from '../../data/routeData/westCornwallLocal.json';
     import westSommersetRailway from '../../data/routeData/westSommersetRailway.json';
-    const unitedKingdomRoutes = [bakerlooLine, birminghamCrossCityLine, cathcartCircle, eastCoastway, greatWesternExpress, isleOfWight, liverpoolLimeStreet, londonCommuter, midlandMainLine ,northernTransPennine, peakForest, scotRailExpress, southeasternHighSpeedTSW3, teesValleyLine, westCornwallLocal, westSommersetRailway];
+    import glossopLine from '../../data/routeData/glossopLine.json';
+    const unitedKingdomRoutes = [glossopLine, bakerlooLine, birminghamCrossCityLine, cathcartCircle, eastCoastway, greatWesternExpress, isleOfWight, liverpoolLimeStreet, londonCommuter, midlandMainLine ,northernTransPennine, peakForest, scotRailExpress, southeasternHighSpeedTSW3, teesValleyLine, westCornwallLocal, westSommersetRailway];
 
     // Switzerland
     import arosalinie from '../../data/routeData/arosalinie.json';
