@@ -1,3 +1,5 @@
+<!-- svelte-ignore a11y-click-events-have-key-events -->
+
 <script>
     import LeafletCountryMap from '$lib/LeafletCountryMap.svelte';
 
@@ -110,12 +112,15 @@
     <div class="row">
         <div class="blockLeft">
             <h1>TSW World Map</h1>
-            <button on:click={() => handleClick('uk')}>United Kingdom</button>
-            <button on:click={() => handleClick('de')}>Germany</button>
-            <button on:click={() => handleClick('us')}>United States</button>
-            <button on:click={() => handleClick('ot')}>Switzerland</button>
-            <button on:click={() => handleClick('ca')}>Canada</button>
-            <button on:click={() => handleClick('fr')}>France</button>
+            <div class="flagContainer">
+                <!-- Should switch this to use buttons instead of divs for security reasons -->
+                <div class="flag" on:click={() => handleClick('uk')}><img class="flagImage" alt="US-Flag" src='https://tswassets.blob.core.windows.net/assets/svgs/flags/gb.png' /></div>
+                <div class="flag" on:click={() => handleClick('de')}><img class="flagImage" alt="US-Flag" src='https://tswassets.blob.core.windows.net/assets/svgs/flags/de.png' /></div>
+                <div class="flag" on:click={() => handleClick('us')}><img class="flagImage" alt="US-Flag" src='https://tswassets.blob.core.windows.net/assets/svgs/flags/us.png' /></div>
+                <div class="flag" on:click={() => handleClick('ot')}><img class="flagImage" alt="US-Flag" src='https://tswassets.blob.core.windows.net/assets/svgs/flags/ch.png' /></div>
+                <div class="flag" on:click={() => handleClick('ca')}><img class="flagImage" alt="US-Flag" src='https://tswassets.blob.core.windows.net/assets/svgs/flags/ca.png' /></div>
+                <div class="flag" on:click={() => handleClick('fr')}><img class="flagImage" alt="US-Flag" src='https://tswassets.blob.core.windows.net/assets/svgs/flags/fr.png' /></div>
+            </div>
             <div>view all available routes from the TSW by country</div>
             <div>Eventually I'll set this up so that you can select a single country and the map will update in real time, according to your selection.</div>
         </div>
@@ -138,6 +143,29 @@
 </main>
 
 <style>
+    div.flagContainer {
+        display: flex;
+        flex-direction: row;
+
+        flex-grow: 1;
+    }
+
+    div.flag {
+        padding: 0px;
+        border: 0;
+        min-width: none;
+        min-height: none;
+        margin: 5px;
+    }
+
+    img.flagImage {
+        max-height: 200px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /* TODO - setup an on hover effect for the flags. */
+
     div.row {
         width: 100%;
         height: 100%;
