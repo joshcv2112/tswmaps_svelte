@@ -29,7 +29,7 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<h1>Interactive Maps for the Train Sim World Series</h1>
+<h1>INTERACTIVE MAPS FOR THE TRAIN SIM WORLD SERIES</h1>
 
 <div class="tile-container">
 	{#each games as game}
@@ -45,15 +45,26 @@
 <style>
 	h1 {
 		width: 100%;
+		margin-top: 35px;
 		margin-bottom: 35px;
 		color: white;
+		font-size: 1.5rem;
 	}
 
-	div.tile-container {
-		margin: 40px auto;
-		margin-top: 0px;
-		width: 95%;
-		padding-left: 20px;
-		padding-right: 20px;
+	@media (min-width: 1000px) {
+		h1 {
+			width: 100%;
+			margin-top: 35px;
+			margin-bottom: 35px;
+			color: white;
+			font-size: 2rem;
+		}
+
+		div.tile-container {
+			margin: 40px auto;
+			margin-top: 0px;
+			width: 95%;
+			
+		}
 	}
 </style>
