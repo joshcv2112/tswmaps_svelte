@@ -3,7 +3,7 @@
     "abbreviation": "BBO",
     "location": "",
     "initialCenter": { "lat": 53.11407268033084, "lng": 8.491097921107647 },
-    "zoom": 10.75,
+    "zoom": 10,
     "achievements": [],
     "routeFacts": {
         "id": 84,

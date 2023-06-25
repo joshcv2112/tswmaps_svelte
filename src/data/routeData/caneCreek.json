@@ -2,7 +2,7 @@
     "name": "Cane Creek Subdivision",
     "location": "Thompson Springs, UT - Moab, UT",
     "initialCenter": { "lat": 38.744901083938295, "lng": -109.72660825661029 },
-    "zoom": 10.6,
+    "zoom": 10,
     "routeFacts": {
         "id": 26,
         "name": "Cane Creek",

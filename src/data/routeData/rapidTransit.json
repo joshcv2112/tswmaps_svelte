@@ -2,6 +2,7 @@
     "name": "Rapid Transit",
     "location": "Dessau HBF  - Markkleeberg-Gaschwitz",
     "initialCenter": { "lat": 51.55935375250897, "lng": 12.32412576801657 },
+    "zoom": 9.25,
     "routeFacts": {
         "name": "Rapid Transit",
         "length": "71 Kilometres (44 miles)",
@@ -46550,7 +46551,6 @@
             }
         ]
     },
-    "zoom": 9.75,
     "markers": [
         { "Location": "Riesa", "type": "Paint", "lat": 51.313341286034785, "lng": 13.268459413456902 },
         { "Location": "Dessau Hbf", "type": "Cone", "lat": 51.84012936207488, "lng": 12.234793535751193, "hint": "By elevator door in pedestrian tunnel under platform 4 and 5"},

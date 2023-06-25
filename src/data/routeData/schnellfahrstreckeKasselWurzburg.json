@@ -3,7 +3,7 @@
     "abbreviation": "",
     "location": "Kassel - Würzburg, Germany",
     "initialCenter": { "lat": 50.54029793618171, "lng": 9.687945419434527 },
-    "zoom": 8.6,
+    "zoom": 8,
     "routeFacts": {
         "name": "Schnellfahrstrecke Kassel-Würzburg",
         "length": "186 km (116 miles)",

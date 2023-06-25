@@ -2,7 +2,7 @@
     "name": "Liverpool Lime St",
     "location": "Liverpool - Crewe",
     "initialCenter": { "lat": 53.24552554288716, "lng": -2.671264004278765 },
-    "zoom": 10.5,
+    "zoom": 9,
     "routeFacts": {
       "name": "Spirit of Steam",
       "length": "36 miles (58 kilometres)",

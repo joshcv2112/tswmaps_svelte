@@ -2,7 +2,7 @@
     "name": "Main-Spessart Bahn",
     "location": "Aschaffenburg - Gemünden, Germany",
     "initialCenter": { "lat": 50.00867441046822, "lng": 9.410682992433058 },
-    "zoom": 10.8,
+    "zoom": 10,
     "achievements": [],
     "routeFacts": {
         "name": "Main-Spessart Bahn",

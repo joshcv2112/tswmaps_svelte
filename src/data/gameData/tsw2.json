@@ -27,7 +27,7 @@
             "image": "https://store-images.s-microsoft.com/image/apps.47759.13950880050034048.661acff3-8494-4962-b708-4e9461c64523.ab73239b-a40e-40e7-a9f6-1e154deaec49?q=90&w=250"
         },{
             "name": "Southeastern High Speed",
-            "path": "/southeasternHighSpeed",
+            "path": "/southeasternHighSpeedTSW2",
             "image": "https://store-images.s-microsoft.com/image/apps.30733.13895889633368653.5c148c39-6f6d-4496-9a02-a3507f5620a0.57ad0dae-21f0-4430-b97f-0cba2c3b6e7c?q=90&w=250"
         },{
             "name": "Arosalinie: Chur - Arosa",
@@ -44,7 +44,7 @@
         },{
             "name": "Cathcart Circle Line",
             "altName": "Scottish City Commuter",
-            "path": "/cathcartCircleLine",
+            "path": "/cathcartCircle",
             "image": "https://store-images.s-microsoft.com/image/apps.14153.13535700406517401.4945a470-077f-4d5a-bdbf-1ade53784e8b.f47851cc-4815-4fae-9234-7052554a46e7?q=90&w=250"
         },{
             "name": "Cane Creek: Thompson - Potash",
@@ -88,11 +88,11 @@
             "image": "https://store-images.s-microsoft.com/image/apps.51686.14509284724127469.7d9c22b6-e605-4881-80e9-d4062538316c.e84f85d1-d984-418f-937a-18e91387de62?q=90&w=250"
         },{
             "name": "Spirit of Steam",
-            "path": "/spiritOfSteam",
+            "path": "/liverpoolLimeStreet",
             "image": "https://store-images.s-microsoft.com/image/apps.1178.13604039640365560.f4ef6cae-18c3-4fc1-ab06-87863a262895.0a70052b-0a93-4e4f-b600-fc7cc2ecb314?q=90&w=250"
         },{
             "name": "Island Line 2022: BR Class 484",
-            "path": "/islandLine2022",
+            "path": "/isleOfWight2022",
             "image": "https://store-images.s-microsoft.com/image/apps.60781.14038583071130994.f0a7e7d3-12d9-48d6-8a16-225ccf2fabc2.0daca956-06a9-4606-a40d-6638bbe2ffe4?q=90&w=250"
         }
     ],

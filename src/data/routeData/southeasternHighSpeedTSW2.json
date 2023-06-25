@@ -2,6 +2,7 @@
     "name": "Southeastern High Speed",
     "location": "London St Pancras and Faversham",
     "initialCenter": { "lat": 51.41245378236349, "lng": 0.32257033241853017 },
+    "zoom": 9,
     "routeFacts": {
         "name": "Southeastern High Speed",
         "length": "51 miles (82 kilometres)",
@@ -25921,7 +25922,6 @@
             }
         ]
     },
-    "zoom": 10,
     "markers": [
         { "Location": "Faversham", "type": "Broken Fence", "lat": 51.31213325, "lng": 0.881316081 },
         { "Location": "Faversham", "type": "Broken Fence", "lat": 51.31211597, "lng": 0.881858416 },

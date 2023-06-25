@@ -21,7 +21,7 @@
     import westCornwallLocal from '../../data/routeData/westCornwallLocal.json';
     import westSommersetRailway from '../../data/routeData/westSommersetRailway.json';
     import glossopLine from '../../data/routeData/glossopLine.json';
-    const unitedKingdomRoutes = [glossopLine, bakerlooLine, birminghamCrossCityLine, cathcartCircle, eastCoastway, greatWesternExpress, isleOfWight, liverpoolLimeStreet, londonCommuter, midlandMainLine ,northernTransPennine, peakForest, scotRailExpress, southeasternHighSpeedTSW3, teesValleyLine, westCornwallLocal, westSommersetRailway];
+    const unitedKingdomRoutes = [glossopLine, birminghamCrossCityLine, cathcartCircle, eastCoastway, greatWesternExpress, isleOfWight, liverpoolLimeStreet, londonCommuter, midlandMainLine ,northernTransPennine, peakForest, scotRailExpress, bakerlooLine, southeasternHighSpeedTSW3, teesValleyLine, westCornwallLocal, westSommersetRailway];
 
     // Switzerland
     import arosalinie from '../../data/routeData/arosalinie.json';
@@ -76,6 +76,7 @@
         "fr": { lat: 46.602752892780806, lng: 2.8949222749795687, zoom: 6.4 }
     };
 
+    let selectedRouteName = 'United Kingdom';
     let selectedRoutes = unitedKingdomRoutes;
     let current = 'uk';
 
@@ -83,26 +84,32 @@
         switch (msg) {
            case 'uk':
                 current = 'uk';
+                selectedRouteName = 'United Kingdom';
                 selectedRoutes = unitedKingdomRoutes;
                 break;
             case 'de':
                 current = 'de';
+                selectedRouteName = 'Germany';
                 selectedRoutes = germanyRoutes;
                 break;
             case 'us':
                 current = 'us';
+                selectedRouteName = 'United States';
                 selectedRoutes = northAmericaRoutes;
                 break;
             case 'ot':
                 current = 'ot';
+                selectedRouteName = 'Switzerland';
                 selectedRoutes = switzerlandRoutes;
                 break;
             case 'ca':
                 current = 'ca';
+                selectedRouteName = 'Canada';
                 selectedRoutes = canadaRoutes;
                 break;
             case 'fr':
                 current = 'fr';
+                selectedRouteName = 'France';
                 selectedRoutes = franceRoutes;
                 break;
         }
@@ -113,17 +120,19 @@
     <div class="row">
         <div class="blockLeft">
             <h1>TSW World Map</h1>
+            <div class="text">Explore all the Train Sim World routes in your favorite country. Just select a flag and use the filters below to hide or highlight</div>
             <div class="flagContainer">
-                <!-- Should switch this to use buttons instead of divs for security reasons -->
-                <div class="flag" on:click={() => handleClick('uk')}><img class="flagImage" alt="US-Flag" src='https://tswassets.blob.core.windows.net/assets/svgs/flags/gb.png' /></div>
-                <div class="flag" on:click={() => handleClick('de')}><img class="flagImage" alt="US-Flag" src='https://tswassets.blob.core.windows.net/assets/svgs/flags/de.png' /></div>
-                <div class="flag" on:click={() => handleClick('us')}><img class="flagImage" alt="US-Flag" src='https://tswassets.blob.core.windows.net/assets/svgs/flags/us.png' /></div>
-                <div class="flag" on:click={() => handleClick('ot')}><img class="flagImage" alt="US-Flag" src='https://tswassets.blob.core.windows.net/assets/svgs/flags/ch.png' /></div>
-                <div class="flag" on:click={() => handleClick('ca')}><img class="flagImage" alt="US-Flag" src='https://tswassets.blob.core.windows.net/assets/svgs/flags/ca.png' /></div>
-                <div class="flag" on:click={() => handleClick('fr')}><img class="flagImage" alt="US-Flag" src='https://tswassets.blob.core.windows.net/assets/svgs/flags/fr.png' /></div>
+                <div class="innerFlagContainer">
+                    <!-- Should switch this to use buttons instead of divs for security reasons -->
+                    <div class="flag" on:click={() => handleClick('uk')}><img class="flagImage" alt="UK-Flag" src='https://tswassets.blob.core.windows.net/assets/svgs/flags/gb.png' /></div>
+                    <div class="flag" on:click={() => handleClick('de')}><img class="flagImage" alt="GE-Flag" src='https://tswassets.blob.core.windows.net/assets/svgs/flags/de.png' /></div>
+                    <div class="flag" on:click={() => handleClick('us')}><img class="flagImage" alt="US-Flag" src='https://tswassets.blob.core.windows.net/assets/svgs/flags/us.png' /></div>
+                    <div class="flag" on:click={() => handleClick('ot')}><img class="flagImage" alt="OT-Flag" src='https://tswassets.blob.core.windows.net/assets/svgs/flags/ch.png' /></div>
+                    <div class="flag" on:click={() => handleClick('ca')}><img class="flagImage" alt="CA-Flag" src='https://tswassets.blob.core.windows.net/assets/svgs/flags/ca.png' /></div>
+                    <div class="flag" on:click={() => handleClick('fr')}><img class="flagImage" alt="FR-Flag" src='https://tswassets.blob.core.windows.net/assets/svgs/flags/fr.png' /></div>
+                </div>
             </div>
-            <div>view all available routes from the TSW by country</div>
-            <div>Eventually I'll set this up so that you can select a single country and the map will update in real time, according to your selection.</div>
+            <h1>{selectedRouteName}</h1>
         </div>
         <div class="blockRight">
             {#if current === 'uk'}
@@ -144,13 +153,22 @@
 </main>
 
 <style>
+    div.text {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
     div.flagContainer {
         display: flex;
         flex-direction: row;
-
         flex-grow: 1;
     }
-
+    div.innerFlagContainer {
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+    }
     div.flag {
         padding: 0px;
         border: 0;
@@ -158,15 +176,12 @@
         min-height: none;
         margin: 5px;
     }
-
     img.flagImage {
-        max-height: 200px;
+        max-height: 80px;
         width: 100%;
         object-fit: cover;
     }
-
     /* TODO - setup an on hover effect for the flags. */
-
     div.row {
         width: 100%;
         height: 100%;
@@ -174,13 +189,11 @@
         flex-direction: row;
         justify-content: center;
     }
-
     div.blockLeft {
         display: inline-block;
         width: 45%;
         color: white;
     }
-
     div.blockRight {
         display: inline-block;
         width: 55%;

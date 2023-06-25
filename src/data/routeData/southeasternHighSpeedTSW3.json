@@ -3,7 +3,7 @@
     "abbreviation": "",
     "location": "Dartford - Ashford International and London St. Pancras - Faversham",
     "initialCenter": { "lat": 51.348265374124956, "lng": 0.4531807942710845 },
-    "zoom": 10,
+    "zoom": 9,
     "routeFacts": {
         "name": "Southeastern High Speed Extended",
         "length": "89 miles (143km)",

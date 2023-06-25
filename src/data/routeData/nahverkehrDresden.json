@@ -2,7 +2,7 @@
     "name": "Nahverkehr Dresden",
     "location": "Rieza, Germany - Dresden, Germany",
     "initialCenter": { "lat": 51.183973671372854, "lng": 13.555348285724856 },
-    "zoom": 10.8,
+    "zoom": 10,
     "routeFacts": {
       "name": "Nahverkehr Dresden",
       "length": "82 kilometres (60 miles)",

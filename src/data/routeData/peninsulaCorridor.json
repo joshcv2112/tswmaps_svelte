@@ -2,7 +2,7 @@
     "name": "Peninsula Corridor",
     "location": "San Francisco, CA - San Jose, CA",
     "initialCenter": { "lat": 37.541002858787635, "lng": -122.21056576103696 },
-    "zoom": 10.6,
+    "zoom": 10,
     "routeFacts": {
         "name": "Peninsula Corridor",
         "length": "47 miles (75 kilometers)",

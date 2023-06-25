@@ -3,7 +3,7 @@
     "abbreviation": "NEC BP",
     "location": "Boston, MA - Providence, RI",
     "initialCenter": { "lat": 42.081395969246515, "lng": -71.19107193353184 },
-    "zoom": 10.1,
+    "zoom": 9,
     "routeFacts": {
         "id": 27,
         "name": "Boston Sprinter",

@@ -2,7 +2,7 @@
     "name": "Midland Mainline: Leicester - Nottingham & Derby",
     "location": "",
     "initialCenter": { "lat": 52.797984255352866, "lng": -1.2607863465206275 },
-    "zoom": 10.5,
+    "zoom": 10,
     "achievements": [],
     "routeFacts": {
         "name": "Midland Mainline",

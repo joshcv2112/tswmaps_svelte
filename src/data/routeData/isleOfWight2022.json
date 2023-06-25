@@ -2,7 +2,7 @@
   "name": "Island Line 2022 | BR Class 484",
   "location": "Ryde - Shanklin, UK",
   "initialCenter": { "lat": 50.688645775686155, "lng": -1.1674915672843225 },
-  "zoom": 12.2,
+  "zoom": 11,
   "achievements": [],
   "routeFacts": {
     "name": "Island Line 2022",

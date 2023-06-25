@@ -2,7 +2,7 @@
     "name": "CN Oakville Subdivision",
     "location": "Hamilton, Ontario - Oakville, Ontario",
     "initialCenter": { "lat": 43.36640258907839, "lng": -79.764443108341 },
-    "zoom": 11.5,
+    "zoom": 10.8,
     "routeFacts": {
         "id": 14,
         "name": "CN Oakville Subdivision",

@@ -2,6 +2,7 @@
     "name": "Clinchfield Railroad",
     "location": "Elkhorn City, Kentucky - Dante, Virginia",
     "initialCenter": { "lat": 37.15197010461977, "lng": -82.35572737495703 },
+    "zoom": 10,
     "routeFacts": {
         "id": 23,
         "name": "Clinchfield Railroad",
@@ -8057,6 +8058,5 @@
             }
         ]
     },
-    "zoom": 11,
     "markers": []
 }

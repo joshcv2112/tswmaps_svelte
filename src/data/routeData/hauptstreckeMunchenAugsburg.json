@@ -2,7 +2,7 @@
     "name": "Hauptstrecke München - Augsburg",
     "location": "",
     "initialCenter": { "lat": 48.25910059533928, "lng": 11.230708192331171 },
-    "zoom": 10.8,
+    "zoom": 10,
     "achievements": [],
     "routeFacts": {
       "name": "Hauptstrecke München – Augsburg",

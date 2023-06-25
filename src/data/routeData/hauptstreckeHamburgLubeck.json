@@ -2,7 +2,7 @@
     "name": "Hauptstrecke Hamburg - Lübeck",
     "location": "Hamburg, Germany - Lübeck, Germany",
     "initialCenter": { "lat": 53.72617130755955, "lng": 10.331859749061474 },
-    "zoom": 10.5,
+    "zoom": 9,
     "achievements": [],
     "routeFacts": {
         "name": "Hauptstrecke Hamburg – Lübeck",

@@ -2,7 +2,7 @@
    "name": "Harlem Line",
    "location": "Grand Central Terminal - North White Plains",
    "initialCenter": { "lat": 40.92894685639941, "lng": -73.84615376208073 },
-   "zoom": 11.2,
+   "zoom": 10,
    "routeFacts": {
       "name": "Harlem Line",
       "length": "24 miles (39 kilometers)",

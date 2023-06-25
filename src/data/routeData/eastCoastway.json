@@ -2,7 +2,7 @@
     "name": "East Coastway",
     "location": "",
     "initialCenter": { "lat": 50.802023525151654, "lng": 0.06199583682500722 },
-    "zoom": 11.4,
+    "zoom": 11,
     "routeFacts": {
         "name": "East Coastway",
         "length": "30 miles (48 kilometres)",

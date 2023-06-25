@@ -1,7 +1,7 @@
 {
     "name": "West Sommerset Railway",
     "location": "Minehead, UK - Norton Fitzwarren, UK",
-    "initialCenter": { "lat": 51.10635115074787, "lng": -3.2578396679945647 },
+    "initialCenter": { "lat": 51.10419742752354, "lng": -3.3071140849394354 },
     "zoom": 11.3,
     "achievements": [],
     "routeFacts": {

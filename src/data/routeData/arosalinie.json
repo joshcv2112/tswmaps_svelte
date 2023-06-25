@@ -2,7 +2,7 @@
     "name": "Arosalinie",
     "location": "Chur, Switzerland - Arosa, Switzerland",
     "initialCenter": { "lat": 46.81645369338821, "lng": 9.613804333009998 },
-    "zoom": 12.8,
+    "zoom": 12,
     "routeFacts": {
         "id": 22,
         "name": "Arosalinie",

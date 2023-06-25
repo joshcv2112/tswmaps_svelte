@@ -2,7 +2,7 @@
     "name": "Tharandter Rampe",
     "location": "Dresden, Germany - Chemnitz, Germany",
     "initialCenter": { "lat": 50.92190013868679, "lng": 13.345706478726553 },
-    "zoom": 10.5,
+    "zoom": 9,
     "routeFacts": {
       "name": "Tharandter Rampe",
       "length": "79 kilometres (49 miles)",

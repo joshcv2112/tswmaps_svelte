@@ -47,6 +47,8 @@
 		align-items: center;
 		background-color: #001219;
 		color: white;
+		height: 20px;
+		font-size: 12px;
 	}
 
 	footer a {

@@ -2,6 +2,7 @@
     "name": "West Cornwall Local",
     "location": "Penzance - St Austell & St Ives",
     "initialCenter": { "lat": 50.240314189784996, "lng": -5.1504301706596 },
+    "zoom": 9,
     "routeFacts": {
         "name": "West Cornwall Local",
         "length": "44 miles (70 kilometres)",
@@ -20307,7 +20308,6 @@
             }
         ]
     },
-    "zoom": 10.3,
     "markers": [
         { "Location": "Faversham", "type": "Broken Fence", "lat": 51.31213325, "lng": 0.881316081 },
         { "Location": "Camborne", "type": "Bags", "lat": 50.21031760087561, "lng": -5.297801626292516 },

@@ -2,7 +2,7 @@
     "name": "Northeast Corridor: New York - Trenton",
     "location": "New York City, New York - Trenton, New Jersey",
     "initialCenter": { "lat": 40.5288526116963, "lng": -74.35317138092702 },
-    "zoom": 10,
+    "zoom": 9,
     "routeFacts": {
         "name": "Northeast Corridor: New York - Trenton",
         "length": "58 miles (94 km)",

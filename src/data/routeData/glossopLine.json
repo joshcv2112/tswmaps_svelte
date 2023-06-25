@@ -2,7 +2,7 @@
   "name": "Glossop Line",
   "location": "Manchester - Hadfield & Glossop",
   "initialCenter": { "lat": 53.467819909798365, "lng": -2.101207810618442 },
-  "zoom": 11.4,
+  "zoom": 11,
   "routeFacts": {
       "name": "Glossop Line",
       "length": "",

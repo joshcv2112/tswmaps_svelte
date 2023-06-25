@@ -2,6 +2,7 @@
     "name": "Cathcart Circle Line",
     "location": "Scottish City Commuter",
     "initialCenter": { "lat": 55.82666935003852, "lng": -4.264401355625231 },
+    "zoom": 11,
     "routeFacts": {
         "id": 25,
         "name": "Cathcart Circle Line",
@@ -24719,7 +24720,6 @@
             }
         ]
     },
-    "zoom": 11.7,
     "markers": [
         { "Location": "Cathcart", "type": "Flower Planter A", "lat": 55.81806834, "lng": -4.259899891 },
         { "Location": "Cathcart", "type": "Newspaper A", "lat": 55.8177587, "lng": -4.260431232 },

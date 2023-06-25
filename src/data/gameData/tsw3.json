@@ -11,7 +11,7 @@
             "image": "https://store-images.s-microsoft.com/image/apps.49647.13808110612526984.87d24936-2470-4458-947c-33273a39278b.5d114d4d-f1b3-4679-be6e-38f80f88b6e7?q=90&w=250"
         },{
             "name": "Southeastern High Speed Extended",
-            "path": "/southeasternHighSpeedExtended",
+            "path": "/southeasternHighSpeedTSW3",
             "image": "https://store-images.s-microsoft.com/image/apps.54620.14059899618691977.5631eea9-9c79-4fad-9fc9-4982b9d6dae7.fc134230-3519-4a88-aa0f-d1b6765c56af?q=90&w=250"
         },{
             "name": "Birmingham Cross-City Line",
@@ -27,7 +27,7 @@
             "image": "https://store-images.s-microsoft.com/image/apps.17074.14539352571975106.8cb8098f-9858-4af9-90da-14b1d4662d5a.df24d2f7-c4ae-423d-abfd-3b8ff123338a?q=90&w=250"
         },{
             "name": "Northeast Corridor: New York - Trenton",
-            "path": "/northeastCorridorNewYorkTrenton",
+            "path": "/necNewYorkTrenton",
             "image": "https://store-images.s-microsoft.com/image/apps.17779.14129786930383978.6e5d3aff-73f0-42b6-adaa-3cbf89f9d111.d6bbdb4b-7011-475b-9438-b506d77952f7?q=90&w=250"
         },{
             "name": "Linke Rheinstrecke: Mainz - Koblenz",
@@ -39,7 +39,7 @@
             "image": "https://store-images.s-microsoft.com/image/apps.30145.14372422449156400.c0fa9d4f-3f2f-4e77-9829-552aff331147.25043aef-74f3-40ad-8174-df4273a94fea?q=90&w=250"
         },{
             "name": "Midlands Main Line: Leicester - Derby and Nottingham",
-            "path": "/midlandsMainLine",
+            "path": "/midlandMainLine",
             "image": "https://store-images.s-microsoft.com/image/apps.51315.13550909821454956.a20f81cb-a2d8-4d7e-bb93-472f8bf4f7cf.7ced6535-7cf1-442a-bbc4-117df5c26090?q=90&w=250"
         },{
             "name": "Peak Forest: Ambergate - Chinley and Buxton",

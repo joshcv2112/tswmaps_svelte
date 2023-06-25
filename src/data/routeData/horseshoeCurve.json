@@ -2,7 +2,7 @@
     "name": "Horseshoe Curve",
     "location": "Altoona, PA - Johnstown, PA",
     "initialCenter": { "lat": 40.43599308489139, "lng": -78.6650298259826 },
-    "zoom": 10.7,
+    "zoom": 10,
     "achievements": [],
     "routeFacts": {
       "name": "Horseshoe Curve",

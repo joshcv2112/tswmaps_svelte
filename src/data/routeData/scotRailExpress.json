@@ -2,7 +2,7 @@
     "name": "ScotRail Express: Edinburgh - Glasgow",
     "location": "Edinburgh, Scotland - Glasgow, Scotland",
     "initialCenter": { "lat": 55.89933434907033, "lng": -3.751802200800038 },
-    "zoom": 10,
+    "zoom": 9,
     "routeFacts": {
         "name": "ScotRail Express: Edinburgh - Glasgow",
         "length": "77 kilometres (47 miles)",

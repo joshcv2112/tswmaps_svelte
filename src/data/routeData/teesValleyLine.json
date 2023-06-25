@@ -2,7 +2,7 @@
     "name": "Tees Valley Line",
     "location": "Darlington, UK - Saltburn, UK",
     "initialCenter": { "lat": 54.56756503103367, "lng": -1.2502796789090191 },
-    "zoom": 11.1,
+    "zoom": 10.25,
     "achievements": [],
     "routeFacts": {
         "name": "Tees Valley Line",

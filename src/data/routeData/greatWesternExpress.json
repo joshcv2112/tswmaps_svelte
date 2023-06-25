@@ -1,7 +1,8 @@
 {
     "name": "Great Western Express",
     "location": "London Paddington - Reading",
-    "initialCenter": { "lat": 51.501473101930145, "lng": -0.5707616147724613 },
+    "initialCenter": { "lat": 51.504888533332895, "lng": -0.6088086889658191 },
+    "zoom": 10,
     "routeFacts": {
         "name": "Great Western Express",
         "length": "36 miles (58 km)",
@@ -53745,7 +53746,6 @@
             }
         ]
     },
-    "zoom": 10.5,
     "markers": [
         { "Location": "London Paddington", "type": "Dispatch Baton", "lat": 51.51659856414075, "lng": -0.1769065982533232},
         { "Location": "London Paddington", "type": "Dispatch Baton", "lat": 51.51783817622462, "lng": -0.17815906996475175},

@@ -2,7 +2,7 @@
     "name": "Ruhr Sieg Nord",
     "location": "Hagen, Germany - Finnentrop, Germany",
     "initialCenter": { "lat": 51.27861597451647, "lng": 7.712526199126446 },
-    "zoom": 11.1,
+    "zoom": 10,
     "achievements": [],
     "routeFacts": {
         "name": "Ruhr Sieg Nord",
