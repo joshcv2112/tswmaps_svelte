@@ -2,6 +2,7 @@
 	import { page } from '$app/stores';
 	import github from '$lib/images/github.svg';
 	import logo from '$lib/images/noun-train-446715-FFFFFF.svg';
+	import hamburgerMenu from '$lib/images/hamburger.svg';
 </script>
 
 <header>
@@ -34,14 +35,125 @@
 			<img src={github} alt="GitHub" />
 		</a>
 	</div>
+
+	<div class="corner-right-menu">
+		<!-- <a href="">
+			<img src={github} alt="Menu Icon" />
+		</a> -->
+		<a class="corner-right-menu" href="/">
+			<img src={hamburgerMenu} alt="TSW Maps" />
+		</a>
+	</div>
 </header>
 
-<style>
+<style>	
+	@media (min-width: 1000px) {
+		header {
+			display: flex;
+			justify-content: space-between;
+			background-color: #001219;
+			height: 4em;
+		}
+
+		.corner-right {
+			width: 4em;
+			height: 4em;
+		}
+
+		.corner-right a {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			height: 100%;
+		}
+
+		.corner-right img {
+			width: 3em;
+			height: 3em;
+			object-fit: contain;
+		}
+
+		.corner-right-menu {
+			display: none;
+		}
+
+		ul {
+			position: relative;
+			padding: 0;
+			margin: 0;
+			height: 4em;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			list-style: none;
+			background-size: contain;
+		}
+
+		li {
+			position: relative;
+			height: 100%;
+		}
+
+		nav a {
+			display: flex;
+			height: 100%;
+			align-items: center;
+			padding: 0 0.5rem;
+			color: #CCDAE6;
+			font-weight: 700;
+			font-size: 0.8rem;
+			text-transform: uppercase;
+			letter-spacing: 0.1em;
+			text-decoration: none;
+			transition: color 0.2s linear;
+		}
+
+		a:hover {
+			color: #D47C2E;
+		}
+	}
+
+	@media (max-width: 1000px) {
+		
+		
+		.corner-right-menu {
+			width: 4em;
+			height: 4em;
+		}
+
+		.corner-right-menu a {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			height: 100%;
+		}
+
+		.corner-right-menu img {
+			width: 3em;
+			height: 3em;
+			object-fit: contain;
+			max-height: 25px;
+		}
+
+		.corner-right {
+			display: none;
+		}
+
+		ul {
+			display: none;
+		}
+
+		li {
+			display: none;
+		}
+	}
+
 	header {
 		display: flex;
 		justify-content: space-between;
 		background-color: #001219;
-		height: 4em;
 	}
 
 	.corner-left {
@@ -50,7 +162,7 @@
 	}
 
 	.corner-left:hover {
-        color: #D47C2E;
+		color: #D47C2E;
 		text-decoration: none;
 	}
 	
@@ -69,59 +181,5 @@
 		width: 3em;
 		height: 3em;
 		object-fit: contain;
-	}
-
-	.corner-right {
-		width: 4em;
-		height: 4em;
-	}
-
-	.corner-right a {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 100%;
-		height: 100%;
-	}
-
-	.corner-right img {
-		width: 3em;
-		height: 3em;
-		object-fit: contain;
-	}
-
-	ul {
-		position: relative;
-		padding: 0;
-		margin: 0;
-		height: 4em;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		list-style: none;
-		background-size: contain;
-	}
-
-	li {
-		position: relative;
-		height: 100%;
-	}
-
-	nav a {
-		display: flex;
-		height: 100%;
-		align-items: center;
-		padding: 0 0.5rem;
-		color: #CCDAE6;
-		font-weight: 700;
-		font-size: 0.8rem;
-		text-transform: uppercase;
-		letter-spacing: 0.1em;
-		text-decoration: none;
-		transition: color 0.2s linear;
-	}
-
-	a:hover {
-		color: #D47C2E;
 	}
 </style>
