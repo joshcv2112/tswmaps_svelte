@@ -36,8 +36,6 @@
 		background: rgb(0,0,0);
 		background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,18,25,1) 48%, rgba(0,0,0,1) 100%); 
 		-ms-overflow-style: none; /* for Internet Explorer, Edge */
-		scrollbar-width: none; /* for Firefox */
-		overflow-y: scroll; 
 	}
 
 	footer {

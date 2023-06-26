@@ -62,8 +62,6 @@
 
     @media (max-width: 1000px) {
         div.tile {
-            /* display: block;
-            float: left; */
             height: 300px;
             max-width: 90%;
             margin-left: auto;
