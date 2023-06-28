@@ -28,8 +28,8 @@
 
         div.image {
             height: 100%;
-            /* margin-left: 3px;
-            margin-right: 3px; */
+            margin-left: 3px;
+            margin-right: 3px;
             background-image: var(--image);
             background-size: cover;
             background-position: center center;
