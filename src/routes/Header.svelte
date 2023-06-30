@@ -3,6 +3,13 @@
 	import github from '$lib/images/github.svg';
 	import logo from '$lib/images/noun-train-446715-FFFFFF.svg';
 	import hamburgerMenu from '$lib/images/hamburger.svg';
+
+	import { fly } from 'svelte/transition';
+	import AnimatedHamburger from '../lib/AnimatedHamburger.svelte';
+	export let open = false;
+	export let onClick = () => {
+        open = !open;
+    }
 </script>
 
 <header>
@@ -30,6 +37,16 @@
 		</ul>
 	</nav>
 
+	{#if open}
+		<nav transition:fly={{ y: -200, duration: 400 }}>
+			<a href="https://magrippis.com/tube">Videos</a>
+			<a href="https://magrippis.com/blog">Blogposts</a>
+			<a href="https://magrippis.com/tube">Guides</a>
+			<a href="https://magrippis.com/tube">Portfolio</a>
+			<a href="https://magrippis.com/milestones">Milestones</a>
+		</nav>
+	{/if}
+
 	<div class="corner-right">
 		<a href="https://github.com/joshcv2112/tswmaps_svelte">
 			<img src={github} alt="GitHub" />
@@ -37,11 +54,9 @@
 	</div>
 
 	<div class="corner-right-menu">
-		<!-- <a href="">
-			<img src={github} alt="Menu Icon" />
-		</a> -->
 		<a class="corner-right-menu" href="/">
-			<img src={hamburgerMenu} alt="TSW Maps" />
+			<!-- <img src={hamburgerMenu} alt="TSW Maps" /> -->
+			<AnimatedHamburger {open} {onClick} />
 		</a>
 	</div>
 </header>
@@ -138,7 +153,7 @@
 		}
 
 		.corner-right {
-			display: none;
+			
 		}
 
 		ul {
