@@ -1,10 +1,6 @@
 <script>
     export let open = false;
-    // export let onClick = (): void => {
-    //     open = !open
-    // }
-
-    // this can't be right??
+    
     export let onClick = () => {
         open = !open;
     }
@@ -16,6 +12,7 @@
   <button on:click={onClick} aria-expanded={open} aria-label={ariaLabel}>
     <svg
       class:open
+      color='white'
       viewBox="0 0 100 100"
       fill="none"
       stroke="currentColor"
@@ -38,14 +35,22 @@
     :root {
       --transition-duration: 400ms;
     }
-  
+
     button {
       cursor: pointer;
       display: flex;
       align-items: center;
       overflow: hidden;
+      background-color: #001219;
+      border: 0;
     }
-  
+
+    @media(min-width: 1000px) {
+        button {
+            display: none;
+        }
+    }
+    
     svg {
       transition: transform var(--transition-duration);
     }

@@ -18,7 +18,7 @@
 			url: "/game/tsw3"
 		},{
 			imageUrl: "https://tswassets.blob.core.windows.net/assets/glossopLine_hometile.jpg",
-			title: "Latest Release | Glossop Line",
+			title: "NEW | Glossop Line",
 			url: "/route/glossopLine"
 		},
 	];
