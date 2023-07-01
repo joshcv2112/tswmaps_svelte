@@ -1,5 +1,8 @@
 {
     "name": "Train Sim World",
+    "synopsis": "Released in 2018, Train Sim World is a highly realistic train simulation game that offers players the opportunity to step into the shoes of a train driver. It features meticulously detailed locomotives from renowned manufacturers like Amtrak, Great Western Railway, and Deutsche Bahn. Players can explore iconic routes such as the scenic Sand Patch Grade in the USA, the bustling Leipzig to Dresden line in Germany, and the historic Great Western Express route in the UK. The game's advanced physics system accurately replicates the challenges of driving trains, including managing speed, braking, and navigating various weather conditions, providing an immersive experience for train enthusiasts.",
+    "routesCopy": "Scattered throughout the landscapes of Train Sim World are task collectibles for you to uncover. Select a route below and use the map to help you uncover even the hardest to find collectibles.", 
+    "locosCopy": "Short description before the locos section", 
     "dlcRoutes": [
         {
             "name": "Sand Patch Grade",

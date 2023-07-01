@@ -44,9 +44,11 @@
 
 <style>
 	h1 {
-		width: 100%;
+		width: 80%;
 		margin-top: 35px;
 		margin-bottom: 35px;
+		margin-left: auto;
+		margin-right: auto;
 		color: white;
 		font-size: 1.5rem;
 	}
