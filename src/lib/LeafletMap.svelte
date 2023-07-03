@@ -17,9 +17,12 @@
                 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             }).addTo(map);
 
-            // Use this to mark collectibles??
-            // leaflet.marker([51.5, -0.09]).addTo(map)
-            //     .bindPopup('A pretty CSS3 popup.<br> Easily customizable.');
+            // setup something to set the marker color by item type. 
+            data.markers.forEach(marker => {
+                let popupText = `${marker.type}: ${marker.hint}`;
+                console.log(JSON.stringify(marker));
+                leaflet.marker([marker.lat, marker.lng]).addTo(map).bindPopup(popupText);
+            });            
 
             const geoJSON = data.routeDetails.features;
             leaflet.geoJSON(geoJSON, {color: "#FF0000", weight: 4}).addTo(map);

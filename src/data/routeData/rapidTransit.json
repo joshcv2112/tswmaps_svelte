@@ -46552,7 +46552,6 @@
         ]
     },
     "markers": [
-        { "Location": "Riesa", "type": "Paint", "lat": 51.313341286034785, "lng": 13.268459413456902 },
         { "Location": "Dessau Hbf", "type": "Cone", "lat": 51.84012936207488, "lng": 12.234793535751193, "hint": "By elevator door in pedestrian tunnel under platform 4 and 5"},
         { "Location": "Dessau Hbf", "type": "Map", "lat": 51.839942420386265, "lng": 12.234646523061564, "hint": "On white brick wall on platform 5"},
         { "Location": "Dessau Hbf", "type": "Shovel", "lat": 51.840999470090665, "lng": 12.235713352107332, "hint": "Just off North end of platform 3 (under the overpass"},

@@ -1,7 +1,10 @@
 {
     "name": "Northeast Corridor: New York - Trenton",
     "location": "New York City, New York - Trenton, New Jersey",
-    "initialCenter": { "lat": 40.5288526116963, "lng": -74.35317138092702 },
+    "initialCenter": {
+        "lat": 40.5288526116963,
+        "lng": -74.35317138092702
+    },
     "zoom": 9,
     "routeFacts": {
         "name": "Northeast Corridor: New York - Trenton",
@@ -11,10 +14,15 @@
         "releaseDate": "February 21st, 2023",
         "designer": "Dovetail Games",
         "signalSystem": "NORAC signals",
-        "locomotives": ["ALP-46, ", "ACS-64"],
+        "locomotives": [
+            "ALP-46, ",
+            "ACS-64"
+        ],
         "wikiUrl": "https://train-sim-world.fandom.com/wiki/Northeast_Corridor:_New_York_-_Trenton",
         "description": "Experience the thrill of railroading along the busling Northeast Corridor, the United States' busiest rail corridor. The Northeast Corridor is home to several passenger rail operators and even some freight lines. The NEC: New York - Trenton DLC puts you in control of Amtrak and NJ Transit passenger trains on a bustling timetable that serves 11 million passengers annually.",
-        "routeInfo": ["In this DLC, players will have access to a number of different locomotives, including the Amtrak ACS-64 and NJ Transit ALP-45DP, allowing them to experience the different trains that run along the Northeast Corridor. The game features a detailed recreation of the route, including accurate train schedules, realistic weather conditions, and intricate train signaling systems. Players will have the opportunity to control trains, navigate busy stations, and experience the hustle and bustle of the Northeast Corridor in a way that only a simulation can provide."],
+        "routeInfo": [
+            "In this DLC, players will have access to a number of different locomotives, including the Amtrak ACS-64 and NJ Transit ALP-45DP, allowing them to experience the different trains that run along the Northeast Corridor. The game features a detailed recreation of the route, including accurate train schedules, realistic weather conditions, and intricate train signaling systems. Players will have the opportunity to control trains, navigate busy stations, and experience the hustle and bustle of the Northeast Corridor in a way that only a simulation can provide."
+        ],
         "routeLayers": [
             {
                 "layerImgPng": "https://tswassets.blob.core.windows.net/assets/layers/NewYorkTrenton/png/Acela_Express_Amtrak_Tile.png",
@@ -56,7 +64,12 @@
     "routeDetails": {
         "type": "FeatureCollection",
         "name": "railways",
-        "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+            }
+        },
         "features": [
             {
                 "type": "Feature",
@@ -93313,7 +93326,7 @@
                         [
                             -74.75663452630148,
                             40.21527908662358
-                        ],
+                        ], 
                         [
                             -74.7567007,
                             40.2155841
@@ -93333,105 +93346,705 @@
         ]
     },
     "markers": [
-        { "Location": "Trenton", "Type": "No Tresspassing Sign", "lat": 40.212024736179906, "lng": -74.76221094381654 },
-        { "Location": "Trenton", "Type": "Route Map", "lat": 40.21839866159271, "lng": -74.75386765656991 },
-        { "Location": "Trenton", "Type": "Baseball Cards", "lat": 40.21847613191047, "lng": -74.75368170740242 },
-        { "Location": "Trenton", "Type": "Recycling Bins", "lat": 40.21922097251149, "lng": -74.75287675090522 },
-        { "Location": "Trenton", "Type": "Recycling Bins", "lat": 40.21938131410391, "lng": -74.75309713789497 },
-        { "Location": "Trenton", "Type": "Route Map", "lat": 40.21899638051584, "lng": -74.75349993137927 },
-        { "Location": "Trenton", "Type": "No Tresspassing Sign", "lat": 40.22114493488929, "lng": -74.75052784872673 },
-        { "Location": "Hamilton", "Type": "No Tresspassing Sign", "lat": 40.24672022412579, "lng": -74.71513944804349 },
-        { "Location": "Hamilton", "Type": "Recycling Bins", "lat": 40.255266180264314, "lng": -74.7039755080262 },
-        { "Location": "Hamilton", "Type": "Route Map", "lat": 40.25549340807827, "lng": -74.70419528549802 },
-        { "Location": "Princeton Junction", "Type": "Route Map", "lat": 40.315639487413556, "lng": -74.62443317661014 },
-        { "Location": "Princeton Junction", "Type": "Recycling Bins", "lat": 40.315930666094545, "lng": -74.62404613876168 },
-        { "Location": "Princeton Junction", "Type": "Route Map", "lat": 40.31607662794652, "lng": -74.62418751301566 },
-        { "Location": "Princeton Junction", "Type": "Baseball Cards", "lat": 40.31658520278255, "lng": -74.62372800518473 },
-        { "Location": "Princeton Junction", "Type": "Recycling Bins", "lat": 40.31658003510491, "lng": -74.6235792726304 },
-        { "Location": "Princeton Junction", "Type": "No Tresspassing Sign", "lat": 40.31696817342887, "lng": -74.62325081059501 },
-        { "Location": "Princeton Junction", "Type": "No Tresspassing Sign", "lat": 40.31901663310438, "lng": -74.62057512163584 },
-        { "Location": "Princeton Junction", "Type": "No Tresspassing Sign", "lat": 40.32886647194558, "lng": -74.60754651712908 },
-        { "Location": "Jersey Avenue", "Type": "No Tresspassing Sign", "lat": 40.43641909025604, "lng": -74.49736788829614 },
-        { "Location": "Jersey Avenue", "Type": "No Tresspassing Sign", "lat": 40.43947850304367, "lng": -74.49550602903119 },
-        { "Location": "Jersey Avenue", "Type": "Route Map", "lat": 40.47744309900993, "lng": -74.46865317539434 },
-        { "Location": "Jersey Avenue", "Type": "Recycling Bins", "lat": 40.47763697341082, "lng": -74.46807450571433 },
-        { "Location": "Jersey Avenue", "Type": "Route Map", "lat": 40.476544577166976, "lng": -74.46784291757989 },
-        { "Location": "New Brunswick", "Type": "Recycling Bins", "lat": 40.49692394980194, "lng": -74.44628724356045 },
-        { "Location": "New Brunswick", "Type": "Recycling Bins", "lat": 40.49720736252889, "lng": -74.44598254825861 },
-        { "Location": "New Brunswick", "Type": "Route Map", "lat": 40.49738271390062, "lng": -74.44545894679132 },
-        { "Location": "Edison", "Type": "No Tresspassing Sign", "lat": 40.51434700118019, "lng": -74.41924672215067 },
-        { "Location": "Edison", "Type": "Route Map", "lat": 40.51838064603374, "lng": -74.41264427104367 },
-        { "Location": "Edison", "Type": "Baseball Cards", "lat": 40.519391698698506, "lng": -74.41102023839834 },
-        { "Location": "Edison", "Type": "Recycling Bins", "lat": 40.519082847800064, "lng": -74.41094391323782 },
-        { "Location": "Edison", "Type": "Route Map", "lat": 40.51921698246272, "lng": -74.41071621251048 },
-        { "Location": "Edison", "Type": "No Tresspassing Sign", "lat": 40.525051343330695, "lng": -74.40185334936318 },
-        { "Location": "Edison", "Type": "No Tresspassing Sign", "lat": 40.52592505489277, "lng": -74.39989126964743 },
-        { "Location": "Edison", "Type": "No Tresspassing Sign", "lat": 40.52730942842015, "lng": -74.3974056994416 },
-        { "Location": "Edison", "Type": "No Tresspassing Sign", "lat": 40.53125666378922, "lng": -74.39168126023023 },
-        { "Location": "Edison", "Type": "No Tresspassing Sign", "lat": 40.531714497469444, "lng": -74.38890785763492 },
-        { "Location": "Metuchen", "Type": "Route Map", "lat": 40.540672287709505, "lng": -74.36055168417536 },
-        { "Location": "Metuchen", "Type": "Recycling Bins", "lat": 40.5409124786385, "lng": -74.35982925936112 },
-        { "Location": "Metuchen", "Type": "Route Map", "lat": 40.54109098792748, "lng": -74.359931570641 },
-        { "Location": "Metropark", "Type": "Route Map", "lat": 40.56857512875349, "lng": -74.32972941532239 },
-        { "Location": "Metropark", "Type": "Recycling Bins", "lat": 40.56874287594848, "lng": -74.32946827254703 },
-        { "Location": "Metropark", "Type": "Recycling Bins", "lat": 40.56831058899746, "lng": -74.3296022240803 },
-        { "Location": "Rahway", "Type": "Baseball Cards", "lat": 40.60622740068095, "lng": -74.27651268623461 },
-        { "Location": "Rahway", "Type": "Route Map", "lat": 40.60622623735237, "lng": -74.27648958714283 },
-        { "Location": "Rahway", "Type": "Route Map", "lat": 40.60614967875008, "lng": -74.27718970404987 },
-        { "Location": "Rahway", "Type": "Recycling Bins", "lat": 40.60632594210527, "lng": -74.27699669429764 },
-        { "Location": "Rahway", "Type": "Recycling Bins", "lat": 40.60723274746653, "lng": -74.27595344658563 },
-        { "Location": "Linden", "Type": "Recycling Bins", "lat": 40.629527596987685, "lng": -74.2519672618725 },
-        { "Location": "Linden", "Type": "Route Map", "lat": 40.62970460061319, "lng": -74.25179808406395 },
-        { "Location": "Linden", "Type": "Recycling Bins", "lat": 40.6297474864592, "lng": -74.25123558774997 },
-        { "Location": "Linden", "Type": "No Tresspassing Sign", "lat": 40.64678586361529, "lng": -74.23322221436963 },
-        { "Location": "Elizabeth", "Type": "No Tresspassing Sign", "lat": 40.65703756201767, "lng": -74.22304643687461 },
-        { "Location": "Elizabeth", "Type": "Recycling Bins", "lat": 40.66704498612627, "lng": -74.2156428342983 },
-        { "Location": "Elizabeth", "Type": "Route Map", "lat": 40.666804507154595, "lng": -74.2158167614965 },
-        { "Location": "Elizabeth", "Type": "Baseball Cards", "lat": 40.666779080221154, "lng": -74.2161126204688 },
-        { "Location": "Elizabeth", "Type": "Recycling Bins", "lat": 40.66692791749361, "lng": -74.21604979618232 },
-        { "Location": "Elizabeth", "Type": "Route Map", "lat": 40.667148691841916, "lng": -74.21584283941336 },
-        { "Location": "Elizabeth", "Type": "No Tresspassing Sign", "lat": 40.67278472831716, "lng": -74.21143825149834 },
-        { "Location": "North Elizabeth", "Type": "No Tresspassing Sign", "lat": 40.67601712621172, "lng": -74.20945821069391 },
-        { "Location": "North Elizabeth", "Type": "Route Map", "lat": 40.68012252396277, "lng": -74.2064081534106 },
-        { "Location": "North Elizabeth", "Type": "Recycling Bins", "lat": 40.680775036836444, "lng": -74.20567315212772 },
-        { "Location": "Newark Liberty Airport", "Type": "No Tresspassing Sign", "lat": 40.69173073872, "lng": -74.19760896228354 },
-        { "Location": "Newark Liberty Airport", "Type": "No Tresspassing Sign", "lat": 40.68796936502437, "lng": -74.20080522150153 },
-        { "Location": "Newark Liberty Airport", "Type": "Recycling Bins", "lat": 40.70367699218497, "lng": -74.19103159608024 },
-        { "Location": "Newark Liberty Airport", "Type": "Route Map", "lat": 40.704338455757615, "lng": -74.19091070779533 },
-        { "Location": "Newark Liberty Airport", "Type": "Recycling Bins", "lat": 40.70568812459191, "lng": -74.19014326086813 },
-        { "Location": "Newark Liberty Airport", "Type": "No Tresspassing Sign", "lat": 40.71620054732184, "lng": -74.18254094833243 },
-        { "Location": "Newark Liberty Airport", "Type": "No Tresspassing Sign", "lat": 40.72352773263734, "lng": -74.17534138982465 },
-        { "Location": "Newark Liberty Airport", "Type": "Baseball Cards", "lat": 40.723269613609155, "lng": -74.17548646585274 },
-        { "Location": "Newark Penn", "Type": "Recycling Bins", "lat": 40.73472852435163, "lng": -74.16299223171053 },
-        { "Location": "Newark Penn", "Type": "Route Map", "lat": 40.73356378233212, "lng": -74.16485507731913 },
-        { "Location": "Newark Penn", "Type": "Recycling Bins", "lat": 40.734703121766344, "lng": -74.16376821331549 },
-        { "Location": "Newark Penn", "Type": "Route Map", "lat": 40.73472658879826, "lng": -74.1642413805037 },
-        { "Location": "Harrison", "Type": "No Tresspassing Sign", "lat": 40.73824658797758, "lng": -74.15716668937007 },
-        { "Location": "Harrison", "Type": "Baseball Cards", "lat": 40.73929438097526, "lng": -74.15545588060331 },
-        { "Location": "Harrison", "Type": "Route Map", "lat": 40.73941063423934, "lng": -74.15592387129645 },
-        { "Location": "Harrison", "Type": "Recycling Bins", "lat": 40.74060616211103, "lng": -74.1450879508262 },
-        { "Location": "Harrison", "Type": "Baseball Cards", "lat": 40.74345113403436, "lng": -74.13314857736997 },
-        { "Location": "Harrison", "Type": "No Tresspassing Sign", "lat": 40.743879170194276, "lng": -74.1280947766162 },
-        { "Location": "Harrison", "Type": "No Tresspassing Sign", "lat": 40.7442753759777, "lng": -74.12158421860553 },
-        { "Location": "Secaucus Junction", "Type": "Route Map", "lat": 40.76201473464748, "lng": -74.07384676042005 },
-        { "Location": "Secaucus Junction", "Type": "Recycling Bins", "lat": 40.76212223637913, "lng": -74.074502615074 },
-        { "Location": "Secaucus Junction", "Type": "Baseball Cards", "lat": 40.77201161549353, "lng": -74.04382390854092 },
-        { "Location": "New York Penn", "Type": "Recycling Bins", "lat": 40.75138974967395, "lng": -73.99661229852062 },
-        { "Location": "New York Penn", "Type": "No Tresspassing Sign", "lat": 40.75194748999839, "lng": -73.99669751500025 },
-        { "Location": "New York Penn", "Type": "Route Map", "lat": 40.75061669193985, "lng": -73.99409115955287 },
-        { "Location": "New York Penn", "Type": "Route Map", "lat": 40.750857935020385, "lng": -73.99521508991099 },
-        { "Location": "New York Penn", "Type": "Recycling Bins", "lat": 40.750270857248395, "lng": -73.99366274703627 },
-        { "Location": "New York Penn", "Type": "Route Map", "lat": 40.74965739607203, "lng": -73.99282697722083 },
-        { "Location": "Sunnyside Yard", "Type": "Recycling Bins", "lat": 40.74162292388874, "lng": -73.95846047369518 },
-        { "Location": "Sunnyside Yard", "Type": "Route Map", "lat": 40.74173457348788, "lng": -73.9583642653943 },
-        { "Location": "Sunnyside Yard", "Type": "No Tresspassing Sign", "lat": 40.741617111737916, "lng": -73.95736395957913 },
-        { "Location": "Sunnyside Yard", "Type": "No Tresspassing Sign", "lat": 40.74079257818643, "lng": -73.95112231557155 },
-        { "Location": "Sunnyside Yard", "Type": "Recycling Bins", "lat": 40.74179610417935, "lng": -73.94847919189453 },
-        { "Location": "Sunnyside Yard", "Type": "Route Map", "lat": 40.742175074896295, "lng": -73.94738629652534 },
-        { "Location": "Sunnyside Yard", "Type": "Baseball Cards", "lat": 40.74412697997756, "lng": -73.94135563159723 },
-        { "Location": "Sunnyside Yard", "Type": "No Tresspassing Sign", "lat": 40.748204825904836, "lng": -73.92583739317301 },
-        { "Location": "Sunnyside Yard", "Type": "No Tresspassing Sign", "lat": 40.74926488040656, "lng": -73.92097000761392 },
-        { "Location": "Sunnyside Yard", "Type": "Route Map", "lat": 40.750953609647645, "lng": -73.9269232470543 },
-        { "Location": "Sunnyside Yard", "Type": "Recycling Bins", "lat": 40.747704679792186, "lng": -73.93508203878943 }
+        {
+            "Location": "Trenton",
+            "type": "No Tresspassing Sign",
+            "lat": 40.212024736179906,
+            "lng": -74.76221094381654,
+            "hint": "A good distance Southwest from Trenton station"
+        },
+        {
+            "Location": "Trenton",
+            "type": "Route Map",
+            "lat": 40.21839866159271,
+            "lng": -74.75386765656991,
+            "hint": "Back wall of elevator shaft on platform between tracks 1 and 2"
+        },
+        {
+            "Location": "Trenton",
+            "type": "Baseball Cards",
+            "lat": 40.21847613191047,
+            "lng": -74.75368170740242,
+            "hint": "In window sill of Transit Center looking Northeast over track 2"
+        },
+        {
+            "Location": "Trenton",
+            "type": "Recycling Bins",
+            "lat": 40.21922097251149,
+            "lng": -74.75287675090522,
+            "hint": "On platform between tracks 1 and 2"
+        },
+        {
+            "Location": "Trenton",
+            "type": "Recycling Bins",
+            "lat": 40.21938131410391,
+            "lng": -74.75309713789497,
+            "hint": "On platform between tracks 4 and 5"
+        },
+        {
+            "Location": "Trenton",
+            "type": "Route Map",
+            "lat": 40.21899638051584,
+            "lng": -74.75349993137927,
+            "hint": "On wall of platform to track 4"
+        },
+        {
+            "Location": "Trenton",
+            "type": "No Tresspassing Sign",
+            "lat": 40.22114493488929,
+            "lng": -74.75052784872673,
+            "hint": "On corner of control building North of Trenton station"
+        },
+        {
+            "Location": "Hamilton",
+            "type": "No Tresspassing Sign",
+            "lat": 40.24672022412579,
+            "lng": -74.71513944804349,
+            "hint": "In yard South of Hamilton Station along fence on East side of tracks"
+        },
+        {
+            "Location": "Hamilton",
+            "type": "Recycling Bins",
+            "lat": 40.255266180264314,
+            "lng": -74.7039755080262,
+            "hint": "On Eastern platform by main station building"
+        },
+        {
+            "Location": "Hamilton",
+            "type": "Route Map",
+            "lat": 40.25549340807827,
+            "lng": -74.70419528549802,
+            "hint": "By elevator doors on Western platform"
+        },
+        {
+            "Location": "Princeton Junction",
+            "type": "Route Map",
+            "lat": 40.315639487413556,
+            "lng": -74.62443317661014,
+            "hint": "On Eastern platform South from station building"
+        },
+        {
+            "Location": "Princeton Junction",
+            "type": "Recycling Bins",
+            "lat": 40.315930666094545,
+            "lng": -74.62404613876168,
+            "hint": "Eastern platform by station building"
+        },
+        {
+            "Location": "Princeton Junction",
+            "type": "Route Map",
+            "lat": 40.31607662794652,
+            "lng": -74.62418751301566,
+            "hint": "In pedestrian tunnel underneath the station"
+        },
+        {
+            "Location": "Princeton Junction",
+            "type": "Baseball Cards",
+            "lat": 40.31658520278255,
+            "lng": -74.62372800518473,
+            "hint": "On the ground in the corner of small station building on the auxiliary platform"
+        },
+        {
+            "Location": "Princeton Junction",
+            "type": "Recycling Bins",
+            "lat": 40.31658003510491,
+            "lng": -74.6235792726304,
+            "hint": "At North end of main platform"
+        },
+        {
+            "Location": "Princeton Junction",
+            "type": "No Tresspassing Sign",
+            "lat": 40.31696817342887,
+            "lng": -74.62325081059501,
+            "hint": "At corner of parking lot by green building just North of the station"
+        },
+        {
+            "Location": "Princeton Junction",
+            "type": "No Tresspassing Sign",
+            "lat": 40.31901663310438,
+            "lng": -74.62057512163584,
+            "hint": "In the grass just North of the overpass to the North of the station "
+        },
+        {
+            "Location": "Princeton Junction",
+            "type": "No Tresspassing Sign",
+            "lat": 40.32886647194558,
+            "lng": -74.60754651712908,
+            "hint": "On North wall of utility cabinet a good distance North of the station"
+        },
+        {
+            "Location": "Jersey Avenue",
+            "type": "No Tresspassing Sign",
+            "lat": 40.43641909025604,
+            "lng": -74.49736788829614,
+            "hint": "On small container building off the Southeast corner of the Jersey Ave Complex Yard"
+        },
+        {
+            "Location": "Jersey Avenue",
+            "type": "No Tresspassing Sign",
+            "lat": 40.43947850304367,
+            "lng": -74.49550602903119,
+            "hint": "In corner of the grassy area off the Northeast corner of the Jersey Ave Complex Yard"
+        },
+        {
+            "Location": "Jersey Avenue",
+            "type": "Route Map",
+            "lat": 40.47744309900993,
+            "lng": -74.46865317539434,
+            "hint": "South wall of station building North of parking lot"
+        },
+        {
+            "Location": "Jersey Avenue",
+            "type": "Recycling Bins",
+            "lat": 40.47763697341082,
+            "lng": -74.46807450571433,
+            "hint": "On platform to the North of the parking lot"
+        },
+        {
+            "Location": "Jersey Avenue",
+            "type": "Route Map",
+            "lat": 40.476544577166976,
+            "lng": -74.46784291757989,
+            "hint": "On chain-link fence on the platform South of the parking lot"
+        },
+        {
+            "Location": "New Brunswick",
+            "type": "Recycling Bins",
+            "lat": 40.49692394980194,
+            "lng": -74.44628724356045,
+            "hint": "South corner of brick building on track 4 platform"
+        },
+        {
+            "Location": "New Brunswick",
+            "type": "Recycling Bins",
+            "lat": 40.49720736252889,
+            "lng": -74.44598254825861,
+            "hint": "Along fence on track 4 platform"
+        },
+        {
+            "Location": "New Brunswick",
+            "type": "Route Map",
+            "lat": 40.49738271390062,
+            "lng": -74.44545894679132,
+            "hint": "North end of covered section of track 4 platform"
+        },
+        {
+            "Location": "Edison",
+            "type": "No Tresspassing Sign",
+            "lat": 40.51434700118019,
+            "lng": -74.41924672215067,
+            "hint": "At fence corner a distance South from Ediston station, just South of a small rail overpass"
+        },
+        {
+            "Location": "Edison",
+            "type": "Route Map",
+            "lat": 40.51838064603374,
+            "lng": -74.41264427104367,
+            "hint": "South end of Northwest platform"
+        },
+        {
+            "Location": "Edison",
+            "type": "Baseball Cards",
+            "lat": 40.519391698698506,
+            "lng": -74.41102023839834,
+            "hint": "In between two ticket machines at North end of the Northwest platform"
+        },
+        {
+            "Location": "Edison",
+            "type": "Recycling Bins",
+            "lat": 40.519082847800064,
+            "lng": -74.41094391323782,
+            "hint": "At Southwest corner of main station building on Southeast platform"
+        },
+        {
+            "Location": "Edison",
+            "type": "Route Map",
+            "lat": 40.51921698246272,
+            "lng": -74.41071621251048,
+            "hint": "At North corner of main station building on Southeast platform"
+        },
+        {
+            "Location": "Edison",
+            "type": "No Tresspassing Sign",
+            "lat": 40.525051343330695,
+            "lng": -74.40185334936318,
+            "hint": "A good distance Northeast from station on North side of tracks near large warehouse"
+        },
+        {
+            "Location": "Edison",
+            "type": "No Tresspassing Sign",
+            "lat": 40.52592505489277,
+            "lng": -74.39989126964743,
+            "hint": "A good distance Northeast from station on the South side of tracks"
+        },
+        {
+            "Location": "Edison",
+            "type": "No Tresspassing Sign",
+            "lat": 40.52730942842015,
+            "lng": -74.3974056994416,
+            "hint": "On wall of small brown building along Southeast side of tracks "
+        },
+        {
+            "Location": "Edison",
+            "type": "No Tresspassing Sign",
+            "lat": 40.53125666378922,
+            "lng": -74.39168126023023,
+            "hint": "At grade crossing where North track branches away from main tracks"
+        },
+        {
+            "Location": "Edison",
+            "type": "No Tresspassing Sign",
+            "lat": 40.531714497469444,
+            "lng": -74.38890785763492,
+            "hint": "South from tracks through trees the sign is near a path at the corner of chain-link fences"
+        },
+        {
+            "Location": "Metuchen",
+            "type": "Route Map",
+            "lat": 40.540672287709505,
+            "lng": -74.36055168417536,
+            "hint": "On South platform just West of station building"
+        },
+        {
+            "Location": "Metuchen",
+            "type": "Recycling Bins",
+            "lat": 40.5409124786385,
+            "lng": -74.35982925936112,
+            "hint": "On South platform just East of covered area"
+        },
+        {
+            "Location": "Metuchen",
+            "type": "Route Map",
+            "lat": 40.54109098792748,
+            "lng": -74.359931570641,
+            "hint": "On North platform East of station building"
+        },
+        {
+            "Location": "Metropark",
+            "type": "Route Map",
+            "lat": 40.56857512875349,
+            "lng": -74.32972941532239,
+            "hint": "Inside Northern waiting shelter on North platform"
+        },
+        {
+            "Location": "Metropark",
+            "type": "Recycling Bins",
+            "lat": 40.56874287594848,
+            "lng": -74.32946827254703,
+            "hint": "Just North of covered area on North platform"
+        },
+        {
+            "Location": "Metropark",
+            "type": "Recycling Bins",
+            "lat": 40.56831058899746,
+            "lng": -74.3296022240803,
+            "hint": "Inside pedestrian bridge crossing to clock tower elevator, off from South platform"
+        },
+        {
+            "Location": "Rahway",
+            "type": "Baseball Cards",
+            "lat": 40.60622740068095,
+            "lng": -74.27651268623461,
+            "hint": "On ground behind white trash bin on the Southeast platform"
+        },
+        {
+            "Location": "Rahway",
+            "type": "Route Map",
+            "lat": 40.60622623735237,
+            "lng": -74.27648958714283,
+            "hint": "Top of staircase at main station building on the Southeast platform"
+        },
+        {
+            "Location": "Rahway",
+            "type": "Route Map",
+            "lat": 40.60614967875008,
+            "lng": -74.27718970404987,
+            "hint": "Inside smaller shelter on South end of the Northwest platform"
+        },
+        {
+            "Location": "Rahway",
+            "type": "Recycling Bins",
+            "lat": 40.60632594210527,
+            "lng": -74.27699669429764,
+            "hint": "Just South of building on the Northwest platform"
+        },
+        {
+            "Location": "Rahway",
+            "type": "Recycling Bins",
+            "lat": 40.60723274746653,
+            "lng": -74.27595344658563,
+            "hint": "Towards the North end of the Northwest platform"
+        },
+        {
+            "Location": "Linden",
+            "type": "Recycling Bins",
+            "lat": 40.629527596987685,
+            "lng": -74.2519672618725,
+            "hint": "On West platform near the top of the stairs from the parking lot"
+        },
+        {
+            "Location": "Linden",
+            "type": "Route Map",
+            "lat": 40.62970460061319,
+            "lng": -74.25179808406395,
+            "hint": "Towards the North end of the Northwest platform, under covered area"
+        },
+        {
+            "Location": "Linden",
+            "type": "Recycling Bins",
+            "lat": 40.6297474864592,
+            "lng": -74.25123558774997,
+            "hint": "On East platform near ticket machines"
+        },
+        {
+            "Location": "Linden",
+            "type": "No Tresspassing Sign",
+            "lat": 40.64678586361529,
+            "lng": -74.23322221436963,
+            "hint": "North of station past the overpass on the East side of tracks near yellow digger"
+        },
+        {
+            "Location": "Elizabeth",
+            "type": "No Tresspassing Sign",
+            "lat": 40.65703756201767,
+            "lng": -74.22304643687461,
+            "hint": "A distance South from station along roadway on Northwest side of tracks"
+        },
+        {
+            "Location": "Elizabeth",
+            "type": "Recycling Bins",
+            "lat": 40.66704498612627,
+            "lng": -74.2156428342983,
+            "hint": "Just South of elevator on South end of the Southeast platform"
+        },
+        {
+            "Location": "Elizabeth",
+            "type": "Route Map",
+            "lat": 40.666804507154595,
+            "lng": -74.2158167614965,
+            "hint": "At bottom of stairs to tunnel under station at South end of the East platform"
+        },
+        {
+            "Location": "Elizabeth",
+            "type": "Baseball Cards",
+            "lat": 40.666779080221154,
+            "lng": -74.2161126204688,
+            "hint": "At foot of bench on South end of West platform"
+        },
+        {
+            "Location": "Elizabeth",
+            "type": "Recycling Bins",
+            "lat": 40.66692791749361,
+            "lng": -74.21604979618232,
+            "hint": "In front of elevator doors at South end of West platform"
+        },
+        {
+            "Location": "Elizabeth",
+            "type": "Route Map",
+            "lat": 40.667148691841916,
+            "lng": -74.21584283941336,
+            "hint": "On West platform in between benches under the covered section"
+        },
+        {
+            "Location": "Elizabeth",
+            "type": "No Tresspassing Sign",
+            "lat": 40.67278472831716,
+            "lng": -74.21143825149834,
+            "hint": "North of Elizabeth station near roadway passing under the rail bridge"
+        },
+        {
+            "Location": "North Elizabeth",
+            "type": "No Tresspassing Sign",
+            "lat": 40.67601712621172,
+            "lng": -74.20945821069391,
+            "hint": "In the dirt near a small brick building South from North Elizabeth Stationon West side of tracks"
+        },
+        {
+            "Location": "North Elizabeth",
+            "type": "Route Map",
+            "lat": 40.68012252396277,
+            "lng": -74.2064081534106,
+            "hint": "On West platform near tall brick apartment buildings"
+        },
+        {
+            "Location": "North Elizabeth",
+            "type": "Recycling Bins",
+            "lat": 40.680775036836444,
+            "lng": -74.20567315212772,
+            "hint": "At North end of East side platform"
+        },
+        {
+            "Location": "Newark Liberty Airport",
+            "type": "No Tresspassing Sign",
+            "lat": 40.69173073872,
+            "lng": -74.19760896228354,
+            "hint": "A good distance South from station near rail bridge at South end of sidings/yard"
+        },
+        {
+            "Location": "Newark Liberty Airport",
+            "type": "No Tresspassing Sign",
+            "lat": 40.68796936502437,
+            "lng": -74.20080522150153,
+            "hint": "On wall of small brown utility building a good distance South from station"
+        },
+        {
+            "Location": "Newark Liberty Airport",
+            "type": "Recycling Bins",
+            "lat": 40.70367699218497,
+            "lng": -74.19103159608024,
+            "hint": "On South end of East platform (Tracks A and 1)"
+        },
+        {
+            "Location": "Newark Liberty Airport",
+            "type": "Route Map",
+            "lat": 40.704338455757615,
+            "lng": -74.19091070779533,
+            "hint": "On wall on side of stairs on the West platform (Track 4)"
+        },
+        {
+            "Location": "Newark Liberty Airport",
+            "type": "Recycling Bins",
+            "lat": 40.70568812459191,
+            "lng": -74.19014326086813,
+            "hint": "At North end of the Western platform (Tracks 4 and 5)"
+        },
+        {
+            "Location": "Newark Liberty Airport",
+            "type": "No Tresspassing Sign",
+            "lat": 40.71620054732184,
+            "lng": -74.18254094833243,
+            "hint": "On wall of small office building at North end of Amtrak Hunter yard"
+        },
+        {
+            "Location": "Newark Liberty Airport",
+            "type": "No Tresspassing Sign",
+            "lat": 40.72352773263734,
+            "lng": -74.17534138982465,
+            "hint": "On opening on Southeast side of tracks a good distance North from the station"
+        },
+        {
+            "Location": "Newark Liberty Airport",
+            "type": "Baseball Cards",
+            "lat": 40.723269613609155,
+            "lng": -74.17548646585274,
+            "hint": "On ground in front of utility cabinets along Southeast side of tracks a good distance North from station"
+        },
+        {
+            "Location": "Newark Penn",
+            "type": "Recycling Bins",
+            "lat": 40.73472852435163,
+            "lng": -74.16299223171053,
+            "hint": "Along wall on platform A"
+        },
+        {
+            "Location": "Newark Penn",
+            "type": "Route Map",
+            "lat": 40.73356378233212,
+            "lng": -74.16485507731913,
+            "hint": "Along wall on platform B near top of stairs to Market St"
+        },
+        {
+            "Location": "Newark Penn",
+            "type": "Recycling Bins",
+            "lat": 40.734703121766344,
+            "lng": -74.16376821331549,
+            "hint": "Towards the North end of platform C"
+        },
+        {
+            "Location": "Newark Penn",
+            "type": "Route Map",
+            "lat": 40.73472658879826,
+            "lng": -74.1642413805037,
+            "hint": "Along wall of track 5 platform (West platform)"
+        },
+        {
+            "Location": "Harrison",
+            "type": "No Tresspassing Sign",
+            "lat": 40.73824658797758,
+            "lng": -74.15716668937007,
+            "hint": "South from the end of the Southeast platform"
+        },
+        {
+            "Location": "Harrison",
+            "type": "Baseball Cards",
+            "lat": 40.73929438097526,
+            "lng": -74.15545588060331,
+            "hint": "Near top of stairs on Southeast platform"
+        },
+        {
+            "Location": "Harrison",
+            "type": "Route Map",
+            "lat": 40.73941063423934,
+            "lng": -74.15592387129645,
+            "hint": "On Northwest platform near turnstyles"
+        },
+        {
+            "Location": "Harrison",
+            "type": "Recycling Bins",
+            "lat": 40.74060616211103,
+            "lng": -74.1450879508262,
+            "hint": "In corner of depot building in yard East from station"
+        },
+        {
+            "Location": "Harrison",
+            "type": "Baseball Cards",
+            "lat": 40.74345113403436,
+            "lng": -74.13314857736997,
+            "hint": "In bushes North of tracks near containers"
+        },
+        {
+            "Location": "Harrison",
+            "type": "No Tresspassing Sign",
+            "lat": 40.743879170194276,
+            "lng": -74.1280947766162,
+            "hint": "Corner of small white building East of rail yard"
+        },
+        {
+            "Location": "Harrison",
+            "type": "No Tresspassing Sign",
+            "lat": 40.7442753759777,
+            "lng": -74.12158421860553,
+            "hint": "On wall of brick building under tall viaducts"
+        },
+        {
+            "Location": "Secaucus Junction",
+            "type": "Route Map",
+            "lat": 40.76201473464748,
+            "lng": -74.07384676042005,
+            "hint": "On wall of South platform"
+        },
+        {
+            "Location": "Secaucus Junction",
+            "type": "Recycling Bins",
+            "lat": 40.76212223637913,
+            "lng": -74.074502615074,
+            "hint": "Along wall of North platform"
+        },
+        {
+            "Location": "Secaucus Junction",
+            "type": "Baseball Cards",
+            "lat": 40.77201161549353,
+            "lng": -74.04382390854092,
+            "hint": "Behind pile of railroad ties (sleepers) on South side of track a good distance Northeast from station"
+        },
+        {
+            "Location": "New York Penn",
+            "type": "Recycling Bins",
+            "lat": 40.75138974967395,
+            "lng": -73.99661229852062,
+            "hint": "On Southwestern platform (apart from other main platforms"
+        },
+        {
+            "Location": "New York Penn",
+            "type": "No Tresspassing Sign",
+            "lat": 40.75194748999839,
+            "lng": -73.99669751500025,
+            "hint": "On pillar at West end of platform 13 and 14"
+        },
+        {
+            "Location": "New York Penn",
+            "type": "Route Map",
+            "lat": 40.75061669193985,
+            "lng": -73.99409115955287,
+            "hint": "On back wall of staircase on platform 9 and 10"
+        },
+        {
+            "Location": "New York Penn",
+            "type": "Route Map",
+            "lat": 40.750857935020385,
+            "lng": -73.99521508991099,
+            "hint": "On white tile wall on platform 7"
+        },
+        {
+            "Location": "New York Penn",
+            "type": "Recycling Bins",
+            "lat": 40.750270857248395,
+            "lng": -73.99366274703627,
+            "hint": "Under stairs on platform 5 and 6"
+        },
+        {
+            "Location": "New York Penn",
+            "type": "Route Map",
+            "lat": 40.74965739607203,
+            "lng": -73.99282697722083,
+            "hint": "On white tile wall on platform 3"
+        },
+        {
+            "Location": "Sunnyside Yard",
+            "type": "Recycling Bins",
+            "lat": 40.74162292388874,
+            "lng": -73.95846047369518,
+            "hint": "By green dumpsters and white van"
+        },
+        {
+            "Location": "Sunnyside Yard",
+            "type": "Route Map",
+            "lat": 40.74173457348788,
+            "lng": -73.9583642653943,
+            "hint": "North wall of small container building"
+        },
+        {
+            "Location": "Sunnyside Yard",
+            "type": "No Tresspassing Sign",
+            "lat": 40.741617111737916,
+            "lng": -73.95736395957913,
+            "hint": "On yellow fence at track terminus"
+        },
+        {
+            "Location": "Sunnyside Yard",
+            "type": "No Tresspassing Sign",
+            "lat": 40.74079257818643,
+            "lng": -73.95112231557155,
+            "hint": "At grade road crossing west of Hunterspoint avenue station"
+        },
+        {
+            "Location": "Sunnyside Yard",
+            "type": "Recycling Bins",
+            "lat": 40.74179610417935,
+            "lng": -73.94847919189453,
+            "hint": "Southwest end of Hunterspoint station platform"
+        },
+        {
+            "Location": "Sunnyside Yard",
+            "type": "Route Map",
+            "lat": 40.742175074896295,
+            "lng": -73.94738629652534,
+            "hint": "On wall of Hunterspoint station platform under the overpass"
+        },
+        {
+            "Location": "Sunnyside Yard",
+            "type": "Baseball Cards",
+            "lat": 40.74412697997756,
+            "lng": -73.94135563159723,
+            "hint": "By fence near street on South side of tracks"
+        },
+        {
+            "Location": "Sunnyside Yard",
+            "type": "No Tresspassing Sign",
+            "lat": 40.748204825904836,
+            "lng": -73.92583739317301,
+            "hint": "Near bridge in dirt area by parked white trucks"
+        },
+        {
+            "Location": "Sunnyside Yard",
+            "type": "No Tresspassing Sign",
+            "lat": 40.74926488040656,
+            "lng": -73.92097000761392,
+            "hint": "Near crates just before bridge"
+        },
+        {
+            "Location": "Sunnyside Yard",
+            "type": "Route Map",
+            "lat": 40.750953609647645,
+            "lng": -73.9269232470543,
+            "hint": "Corner of yellow brick depot building"
+        },
+        {
+            "Location": "Sunnyside Yard",
+            "type": "Recycling Bins",
+            "lat": 40.747704679792186,
+            "lng": -73.93508203878943,
+            "hint": "Near parked cars in yard"
+        }
     ]
 }
