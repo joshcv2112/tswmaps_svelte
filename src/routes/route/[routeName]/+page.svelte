@@ -32,24 +32,43 @@
 
 <style>
     @import 'leaflet/dist/leaflet.css';
-    div.row {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+    
+    @media(min-width: 1000px) {
+        div.row {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        div.blockLeft {
+            display: inline-block;
+            width: 45%;
+            color: white;
+            overflow-y: scroll;
+        }
+
+        div.blockRight {
+            display: inline-block;
+            width: 55%;
+            color: white;
+        }
     }
 
-    div.blockLeft {
-        display: inline-block;
-        width: 45%;
-        color: white;
-        overflow-y: scroll;
-    }
+    @media(max-width: 1000px) {
+        div.row {
+            width: 100%;
+            height: 100%;
+        }
 
-    div.blockRight {
-        display: inline-block;
-        width: 55%;
-        color: white;
+        div.blockLeft {
+            color: white;
+        }
+
+        div.blockRight {
+            padding: 30px;
+            color: white; 
+        }
     }
 </style>

@@ -62,18 +62,16 @@
         margin: 15px;
     }
 
-    td {
-        
-    }
-
-    tr {
-
-    }
-
     div.attribution {
         font-size: 12px;
         padding-top: 2em;
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    @media (max-width: 1000px) {
+        div.attribution {
+            display: none;
+        }
     }
 </style>
