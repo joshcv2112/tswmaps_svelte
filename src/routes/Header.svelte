@@ -2,7 +2,6 @@
 	import { page } from '$app/stores';
 	import github from '$lib/images/github.svg';
 	import logo from '$lib/images/noun-train-446715-FFFFFF.svg';
-	import hamburgerMenu from '$lib/images/hamburger.svg';
 
 	import { fly } from 'svelte/transition';
 	import AnimatedHamburger from '../lib/AnimatedHamburger.svelte';
@@ -28,14 +27,17 @@
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 				<a href="/">Home</a>
 			</li>
-			<li aria-current={$page.url.pathname === '/support' ? 'page' : undefined}>
-				<a href="/support">Support</a>
+			<li aria-current={$page.url.pathname === '/locos' ? 'page' : undefined}>
+				<a href="/locos">Locos</a>
 			</li>
-			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-				<a href="/about">About</a>
+			<li aria-current={$page.url.pathname === '/world' ? 'page' : undefined}>
+				<a href="/world">World Map</a>
 			</li>
 			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
 				<a href="https://classic.tswmaps.com/">TS Classic Maps</a>
+			</li>
+			<li aria-current={$page.url.pathname === '/support' ? 'page' : undefined}>
+				<a href="/support">Support</a>
 			</li>
 		</ul>
 	</nav>
@@ -49,8 +51,9 @@
 	{#if open}
 	  <nav transition:fly={{ y: -200, duration: 400 }}>
 		<a class="hamburger" href="/">Home</a>
+		<a class="hamburger" href="/locos">Locos</a>
+		<a class="hamburger" href="/world">World Map</a>
 		<a class="hamburger" href="/support">Support</a>
-		<a class="hamburger" href="/about">About</a>
 		<a class="hamburger" href="https://classic.tswmaps.com/">TS Classic Maps</a>
 	  </nav>
 	{/if}
@@ -63,7 +66,7 @@
 			font-size: 2rem;
 			color: var(--accent-color);
 			background-color: #001219;
-			z-index: 2;
+			z-index: 1;
 		}
 	
 		.main {
@@ -100,7 +103,7 @@
 
 		nav {
 			position: absolute;
-			z-index: -1;
+			z-index: 1;
 			width: 100%;
 			padding: 1rem;
 			display: flex;

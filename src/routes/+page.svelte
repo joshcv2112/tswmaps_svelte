@@ -38,7 +38,7 @@
 </div>
 
 <div class="tile-container">
-	<HalfTile imageUrl="https://media.railsimdev.com/2023/042023/04/TSW3_Screenshot8.jpg" title="Locos and Rolling Stock" url="https://www.google.com/" />
+	<HalfTile imageUrl="https://media.railsimdev.com/2023/042023/04/TSW3_Screenshot8.jpg" title="Locos and Rolling Stock" url="/locos" />
 	<HalfTile imageUrl="https://tswassets.blob.core.windows.net/tsw3/routeIcons/worldmap.jpg" title="World Map" url="/world" />
 </div>
 
