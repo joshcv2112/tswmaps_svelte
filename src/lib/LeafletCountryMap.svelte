@@ -22,9 +22,11 @@
                 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             }).addTo(map);
 
-
+            // TODO - eventually I should put links to the route pages in the popups on here
             for (let i = 0; i < routes.length; i += 1) {
-                leaflet.geoJSON(routes[i].routeDetails.features, { color: colors[i], weight: 3 }).addTo(map);
+                leaflet.geoJSON(routes[i].routeDetails.features, { color: colors[i], weight: 3, onEachFeature: function (feature, layer) {
+                    layer.bindPopup('<h2>'+routes[i].name+'</h2>')
+                } }).addTo(map);
             }
         }
     });
