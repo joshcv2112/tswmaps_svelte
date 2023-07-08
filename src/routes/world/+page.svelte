@@ -120,7 +120,6 @@
     <div class="row">
         <div class="blockLeft">
             <h1>TSW World Map</h1>
-            <div class="text">Explore all the Train Sim World routes in your favorite country. Just select a flag and use the filters below to hide or highlight</div>
             <div class="flagContainer">
                 <div class="innerFlagContainer">
                     <!-- Should switch this to use buttons instead of divs for security reasons -->
@@ -133,6 +132,8 @@
                 </div>
             </div>
             <h1>{selectedRouteName}</h1>
+            <div class="text">Explore all the Train Sim World routes in your favorite country, choose a flag to select a different country. Click on any given route lines on the map for additional details.</div>
+            
         </div>
         <div class="blockRight">
             {#if current === 'uk'}
@@ -154,9 +155,10 @@
 
 <style>
     div.text {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
         padding-bottom: 10px;
+        font-size: 20px;
     }
     div.flagContainer {
         display: flex;
